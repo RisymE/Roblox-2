@@ -1,0 +1,12 @@
+while true do
+game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 50
+wait(1)
+local UserInputService = game:GetService("UserInputService")
+
+function onJumpRequest()
+    game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+end
+
+UserInputService.JumpRequest:Connect(onJumpRequest)
+wait()
+end

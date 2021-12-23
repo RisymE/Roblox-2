@@ -1,0 +1,1 @@
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/RisymE/Roblox/main/Roblox-Scripts/Console%20reader.lua'),true))()

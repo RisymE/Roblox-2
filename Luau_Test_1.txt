@@ -1,0 +1,4016 @@
+if game.PlaceId == 5041144419 then
+    print("RncHub Loaded")
+    wait(1)
+    warn("Scripts Loaded")
+
+-- Made by Rncrex Hack (RncHub)
+-- 
+
+-- Instances:
+
+local RnGui = Instance.new("ScreenGui")
+local Open = Instance.new("TextButton")
+local Open2 = Instance.new("TextButton")
+local Open3 = Instance.new("TextButton")
+local Open4 = Instance.new("TextButton")
+local Open5 = Instance.new("TextButton")
+local Open6 = Instance.new("TextButton")
+local Open7 = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local Minimize2 = Instance.new("TextButton")
+local Minimize3 = Instance.new("TextButton")
+local Minimize4 = Instance.new("TextButton")
+local Minimize5 = Instance.new("TextButton")
+local Minimize6 = Instance.new("TextButton")
+local Minimize7 = Instance.new("TextButton")
+local Exit = Instance.new("TextButton")
+local Exit5 = Instance.new("TextButton")
+local Exit6 = Instance.new("TextButton")
+local Exit7 = Instance.new("TextButton")
+local Exit8 = Instance.new("TextButton")
+local Next = Instance.new("TextButton")
+local Next2 = Instance.new("TextButton")
+local Next3 = Instance.new("TextButton")
+local previous = Instance.new("TextButton")
+local previous2 = Instance.new("TextButton")
+local previous3 = Instance.new("TextButton")
+local mainframe = Instance.new("Frame")
+local mainframe2 = Instance.new("Frame")
+local mainframe3 = Instance.new("Frame")
+local mainframe4 = Instance.new("Frame")
+local mainframe5 = Instance.new("Frame")
+local mainframe6 = Instance.new("Frame")
+local mainframe7 = Instance.new("Frame")
+local mainframe8 = Instance.new("Frame")
+local Exit2 = Instance.new("TextButton")
+local Exit3 = Instance.new("TextButton")
+local Exit4 = Instance.new("TextButton")
+local TPs = Instance.new("TextButton")
+local Ani = Instance.new("TextButton")
+local Misc = Instance.new("TextButton")
+local Shop = Instance.new("TextButton")
+local Teams = Instance.new("TextButton")
+local Random = Instance.new("TextButton")
+local Random2 = Instance.new("TextButton")
+local Random3 = Instance.new("TextButton")
+local Random4 = Instance.new("TextButton")
+local Random5 = Instance.new("TextButton")
+local Random6 = Instance.new("TextButton")
+local Farms = Instance.new("TextButton")
+local Anti = Instance.new("TextButton")
+local Anti2 = Instance.new("TextButton")
+local Hide = Instance.new("TextButton")
+local Lab = Instance.new("TextLabel")
+local Lab2 = Instance.new("TextLabel")
+local Lab3 = Instance.new("TextLabel")
+local Lab4 = Instance.new("TextLabel")
+local Lab5 = Instance.new("TextLabel")
+local Lab6 = Instance.new("TextLabel")
+local Lab7 = Instance.new("TextLabel")
+local RncHubGUI = Instance.new("TextLabel")
+local orbit = Instance.new("TextButton")
+local tp = Instance.new("TextButton")
+local tp2 = Instance.new("TextButton")
+local orbit2 = Instance.new("TextButton")
+local tp3 = Instance.new("TextButton")
+local tp4 = Instance.new("TextButton")
+local tp5 = Instance.new("TextButton")
+local tp6 = Instance.new("TextButton")
+local tp7 = Instance.new("TextButton")
+local tp8 = Instance.new("TextButton")
+local tp9 = Instance.new("TextButton")
+local tp10 = Instance.new("TextButton")
+local tp11 = Instance.new("TextButton")
+local tp12 = Instance.new("TextButton")
+local Dr = Instance.new("TextButton")
+local Mis = Instance.new("TextButton")
+local Mis2 = Instance.new("TextButton")
+local Mis3 = Instance.new("TextButton")
+local Mis4 = Instance.new("TextButton")
+local Auto = Instance.new("TextButton")
+local Auto2 = Instance.new("TextButton")
+local AutoF = Instance.new("TextButton")
+local tp13 = Instance.new("TextButton")
+local tp14 = Instance.new("TextButton")
+local tp15 = Instance.new("TextButton")
+local tp16 = Instance.new("TextButton")
+local tp17 = Instance.new("TextButton")
+local tp18 = Instance.new("TextButton")
+local tp19 = Instance.new("TextButton")
+local tp20 = Instance.new("TextButton")
+local tp21 = Instance.new("TextButton")
+local tp22 = Instance.new("TextButton")
+local tp23 = Instance.new("TextButton")
+local tp24 = Instance.new("TextButton")
+local tp25 = Instance.new("TextButton")
+local tp26 = Instance.new("TextButton")
+local tp27 = Instance.new("TextButton")
+local tp28 = Instance.new("TextButton")
+local tp29 = Instance.new("TextButton")
+local tp30 = Instance.new("TextButton")
+local tp31 = Instance.new("TextButton")
+local tp32 = Instance.new("TextButton")
+local tp33 = Instance.new("TextButton")
+local tp34 = Instance.new("TextButton")
+local tp35 = Instance.new("TextButton")
+local tp36 = Instance.new("TextButton")
+local tp37 = Instance.new("TextButton")
+local tp38 = Instance.new("TextButton")
+local tp39 = Instance.new("TextButton")
+local tp40 = Instance.new("TextButton")
+local tp41 = Instance.new("TextButton")
+local tp42 = Instance.new("TextButton")
+local tp43 = Instance.new("TextButton")
+local tp44 = Instance.new("TextButton")
+local tp45 = Instance.new("TextButton")
+local tp46 = Instance.new("TextButton")
+local tp47 = Instance.new("TextButton")
+local tp48 = Instance.new("TextButton")
+local tp49 = Instance.new("TextButton")
+local tp50 = Instance.new("TextButton")
+local N = Instance.new("TextButton")
+local Team1 = Instance.new("TextButton")
+local Team2 = Instance.new("TextButton")
+local Team3 = Instance.new("TextButton")
+local Team4 = Instance.new("TextButton")
+local Team5 = Instance.new("TextButton")
+local Team6 = Instance.new("TextButton")
+local Team7 = Instance.new("TextButton")
+local Team8 = Instance.new("TextButton")
+local Team9 = Instance.new("TextButton")
+local Team10 = Instance.new("TextButton")
+local Team11 = Instance.new("TextButton")
+local Team12 = Instance.new("TextButton")
+local Team12 = Instance.new("TextButton")
+local Team13 = Instance.new("TextButton")
+local Team14 = Instance.new("TextButton")
+local item1 = Instance.new("TextButton")
+local item2 = Instance.new("TextButton")
+local item3 = Instance.new("TextButton")
+local item4 = Instance.new("TextButton")
+local item5 = Instance.new("TextButton")
+local item6 = Instance.new("TextButton")
+
+--Properties:
+
+RnGui.Name = 'RnGui'
+RnGui.Parent = game.CoreGui
+
+mainframe.Name = "mainframe"
+mainframe.Parent = RnGui
+mainframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe.Position = UDim2.new(0.135501355, -60, 0.206020081, 0)
+mainframe.Size = UDim2.new(0, 285, 0, 185)
+
+mainframe2.Name = "mainframe2"
+mainframe2.Parent = RnGui
+mainframe2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe2.Position = UDim2.new(0.135501355, 250, 0.206020081, 0)
+mainframe2.Size = UDim2.new(0, 285, 0, 185)
+mainframe2.Visible = false
+
+mainframe3.Name = "mainframe3"
+mainframe3.Parent = RnGui
+mainframe3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe3.Position = UDim2.new(0.135501355, 550, 0.206020081, 0)
+mainframe3.Size = UDim2.new(0, 285, 0, 185)
+mainframe3.Visible = false
+
+mainframe4.Name = "mainframe4"
+mainframe4.Parent = RnGui
+mainframe4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe4.Position = UDim2.new(0.135501355, 850, 0.206020081, 0)
+mainframe4.Size = UDim2.new(0, 285, 0, 185)
+mainframe4.Visible = false
+
+mainframe5.Name = "mainframe5"
+mainframe5.Parent = RnGui
+mainframe5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe5.Position = UDim2.new(0.135501355, 850, 0.506020081, 0)
+mainframe5.Size = UDim2.new(0, 285, 0, 185)
+mainframe5.Visible = false
+
+mainframe6.Name = "mainframe6"
+mainframe6.Parent = RnGui
+mainframe6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe6.Position = UDim2.new(0.135501355, 250, 0.506020081, 0)
+mainframe6.Size = UDim2.new(0, 285, 0, 185)
+mainframe6.Visible = false
+
+mainframe7.Name = "mainframe7"
+mainframe7.Parent = RnGui
+mainframe7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe7.Position = UDim2.new(0.135501355, 550, 0.506020081, 0)
+mainframe7.Size = UDim2.new(0, 285, 0, 185)
+mainframe7.Visible = false
+
+mainframe8.Name = "mainframe8"
+mainframe8.Parent = RnGui
+mainframe8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe8.Position = UDim2.new(0.135501355, 550, 0.506020081, 0)
+mainframe8.Size = UDim2.new(0, 285, 0, 185)
+mainframe8.Visible = false
+
+RncHubGUI.Name = "Rncrex Hack"
+RncHubGUI.Parent = mainframe
+RncHubGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RncHubGUI.Size = UDim2.new(0, 282, 0, 22)
+RncHubGUI.Font = Enum.Font.SourceSans
+RncHubGUI.Text = "RncHub"
+RncHubGUI.TextColor3 = Color3.fromRGB(98, 37, 209)
+RncHubGUI.TextSize = 14.000
+RncHubGUI.TextWrapped = true
+RncHubGUI.TextScaled = true
+
+Minimize.Name = "-"
+Minimize.Parent = RncHubGUI
+Minimize.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.Position = UDim2.new(0.723404229, 14, 0.005555552, 0)
+Minimize.Size = UDim2.new(0, 30, 0, 22)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(98, 37, 209)
+Minimize.TextSize = 40.000
+Minimize.TextWrapped = true
+Minimize.TextScaled = false
+
+Minimize2.Name = "-"
+Minimize2.Parent = Lab
+Minimize2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize2.Position = UDim2.new(0.723404229, 14, 0.005555552, 0)
+Minimize2.Size = UDim2.new(0, 30, 0, 22)
+Minimize2.Font = Enum.Font.SourceSans
+Minimize2.Text = "-"
+Minimize2.TextColor3 = Color3.fromRGB(98, 37, 209)
+Minimize2.TextSize = 40.000
+Minimize2.TextWrapped = true
+Minimize2.TextScaled = false
+
+Minimize3.Name = "-"
+Minimize3.Parent = Lab2
+Minimize3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize3.Position = UDim2.new(0.723404229, 14, 0.005555552, 0)
+Minimize3.Size = UDim2.new(0, 30, 0, 22)
+Minimize3.Font = Enum.Font.SourceSans
+Minimize3.Text = "-"
+Minimize3.TextColor3 = Color3.fromRGB(98, 37, 209)
+Minimize3.TextSize = 40.000
+Minimize3.TextWrapped = true
+Minimize3.TextScaled = false
+
+Minimize4.Name = "-"
+Minimize4.Parent = Lab3
+Minimize4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize4.Position = UDim2.new(0.723404229, 14, 0.005555552, 0)
+Minimize4.Size = UDim2.new(0, 30, 0, 22)
+Minimize4.Font = Enum.Font.SourceSans
+Minimize4.Text = "-"
+Minimize4.TextColor3 = Color3.fromRGB(98, 37, 209)
+Minimize4.TextSize = 40.000
+Minimize4.TextWrapped = true
+Minimize4.TextScaled = false
+
+Minimize5.Name = "-"
+Minimize5.Parent = Lab4
+Minimize5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize5.Position = UDim2.new(0.723404229, 14, 0.005555552, 0)
+Minimize5.Size = UDim2.new(0, 30, 0, 22)
+Minimize5.Font = Enum.Font.SourceSans
+Minimize5.Text = "-"
+Minimize5.TextColor3 = Color3.fromRGB(98, 37, 209)
+Minimize5.TextSize = 40.000
+Minimize5.TextWrapped = true
+Minimize5.TextScaled = false
+
+Minimize6.Name = "-"
+Minimize6.Parent = Lab5
+Minimize6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize6.Position = UDim2.new(0.723404229, 14, 0.005555552, 0)
+Minimize6.Size = UDim2.new(0, 30, 0, 22)
+Minimize6.Font = Enum.Font.SourceSans
+Minimize6.Text = "-"
+Minimize6.TextColor3 = Color3.fromRGB(98, 37, 209)
+Minimize6.TextSize = 40.000
+Minimize6.TextWrapped = true
+Minimize6.TextScaled = false
+
+Minimize7.Name = "-"
+Minimize7.Parent = Lab6
+Minimize7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize7.Position = UDim2.new(0.723404229, 14, 0.005555552, 0)
+Minimize7.Size = UDim2.new(0, 30, 0, 22)
+Minimize7.Font = Enum.Font.SourceSans
+Minimize7.Text = "-"
+Minimize7.TextColor3 = Color3.fromRGB(98, 37, 209)
+Minimize7.TextSize = 40.000
+Minimize7.TextWrapped = true
+Minimize7.TextScaled = false
+
+Exit.Name = "x"
+Exit.Parent = RncHubGUI
+Exit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit.Size = UDim2.new(0, 35, 0, 22)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = "x"
+Exit.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit.TextSize = 20.000
+Exit.TextWrapped = true
+Exit.TextScaled = true
+
+Exit2.Name = "x"
+Exit2.Parent = Lab
+Exit2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit2.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit2.Size = UDim2.new(0, 35, 0, 22)
+Exit2.Font = Enum.Font.SourceSans
+Exit2.Text = "x"
+Exit2.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit2.TextSize = 20.000
+Exit2.TextWrapped = true
+Exit2.TextScaled = true
+
+Exit3.Name = "x"
+Exit3.Parent = Lab2
+Exit3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit3.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit3.Size = UDim2.new(0, 35, 0, 22)
+Exit3.Font = Enum.Font.SourceSans
+Exit3.Text = "x"
+Exit3.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit3.TextSize = 20.000
+Exit3.TextWrapped = true
+Exit3.TextScaled = true
+
+Exit4.Name = "x"
+Exit4.Parent = Lab3
+Exit4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit4.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit4.Size = UDim2.new(0, 35, 0, 22)
+Exit4.Font = Enum.Font.SourceSans
+Exit4.Text = "x"
+Exit4.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit4.TextSize = 20.000
+Exit4.TextWrapped = true
+Exit4.TextScaled = true
+
+Exit5.Name = "x"
+Exit5.Parent = Lab4
+Exit5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit5.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit5.Size = UDim2.new(0, 35, 0, 22)
+Exit5.Font = Enum.Font.SourceSans
+Exit5.Text = "x"
+Exit5.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit5.TextSize = 20.000
+Exit5.TextWrapped = true
+Exit5.TextScaled = true
+
+Exit6.Name = "x"
+Exit6.Parent = Lab5
+Exit6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit6.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit6.Size = UDim2.new(0, 35, 0, 22)
+Exit6.Font = Enum.Font.SourceSans
+Exit6.Text = "x"
+Exit6.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit6.TextSize = 20.000
+Exit6.TextWrapped = true
+Exit6.TextScaled = true
+
+Exit7.Name = "x"
+Exit7.Parent = Lab6
+Exit7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit7.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit7.Size = UDim2.new(0, 35, 0, 22)
+Exit7.Font = Enum.Font.SourceSans
+Exit7.Text = "x"
+Exit7.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit7.TextSize = 20.000
+Exit7.TextWrapped = true
+Exit7.TextScaled = true
+
+Exit8.Name = "x"
+Exit8.Parent = Lab7
+Exit8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit8.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit8.Size = UDim2.new(0, 35, 0, 22)
+Exit8.Font = Enum.Font.SourceSans
+Exit8.Text = "x"
+Exit8.TextColor3 = Color3.fromRGB(98, 37, 209)
+Exit8.TextSize = 20.000
+Exit8.TextWrapped = true
+Exit8.TextScaled = true
+
+Open.Name = "Open"
+Open.Parent = RnGui
+Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open.Position = UDim2.new(0.723404229, -991, 0.355555552, 0)
+Open.Size = UDim2.new(0, 50, 0, 30)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(98, 37, 209)
+Open.TextSize = 20.000
+Open.TextWrapped = true
+Open.Visible = false
+
+Open2.Name = "Open2"
+Open2.Parent = RnGui
+Open2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open2.Position = UDim2.new(0.723404229, -988, 0.403555552, 0)
+Open2.Size = UDim2.new(0, 70, 0, 30)
+Open2.Font = Enum.Font.SourceSans
+Open2.Text = "Open TPS"
+Open2.TextColor3 = Color3.fromRGB(98, 37, 209)
+Open2.TextSize = 20.000
+Open2.TextWrapped = true
+Open2.Visible = false
+
+Open3.Name = "Open3"
+Open3.Parent = RnGui
+Open3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open3.Position = UDim2.new(0.723404229, -988, 0.451555552, 0)
+Open3.Size = UDim2.new(0, 75, 0, 30)
+Open3.Font = Enum.Font.SourceSans
+Open3.Text = "Open AnTi"
+Open3.TextColor3 = Color3.fromRGB(98, 37, 209)
+Open3.TextSize = 20.000
+Open3.TextWrapped = true
+Open3.Visible = false
+
+Open4.Name = "Open4"
+Open4.Parent = RnGui
+Open4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open4.Position = UDim2.new(0.723404229, -988, 0.499555552, 0)
+Open4.Size = UDim2.new(0, 75, 0, 30)
+Open4.Font = Enum.Font.SourceSans
+Open4.Text = "Open Misc"
+Open4.TextColor3 = Color3.fromRGB(98, 37, 209)
+Open4.TextSize = 20.000
+Open4.TextWrapped = true
+Open4.Visible = false
+
+Open5.Name = "Open5"
+Open5.Parent = RnGui
+Open5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open5.Position = UDim2.new(0.723404229, -988, 0.594555552, 0)
+Open5.Size = UDim2.new(0, 88, 0, 30)
+Open5.Font = Enum.Font.SourceSans
+Open5.Text = "Open Farms"
+Open5.TextColor3 = Color3.fromRGB(98, 37, 209)
+Open5.TextSize = 20.000
+Open5.Visible = false
+
+Open6.Name = "Open6"
+Open6.Parent = RnGui
+Open6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open6.Position = UDim2.new(0.723404229, -988, 0.546555552, 0)
+Open6.Size = UDim2.new(0, 80, 0, 30)
+Open6.Font = Enum.Font.SourceSans
+Open6.Text = "Open Shop"
+Open6.TextColor3 = Color3.fromRGB(98, 37, 209)
+Open6.TextSize = 20.000
+Open6.Visible = false
+
+Open7.Name = "Open7"
+Open7.Parent = RnGui
+Open7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open7.Position = UDim2.new(0.723404229, -988, 0.642555552, 0)
+Open7.Size = UDim2.new(0, 88, 0, 30)
+Open7.Font = Enum.Font.SourceSans
+Open7.Text = "Open Teams"
+Open7.TextColor3 = Color3.fromRGB(98, 37, 209)
+Open7.TextSize = 20.000
+Open7.Visible = false
+
+Next.Name = "->"
+Next.Parent = mainframe
+Next.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Next.Position = UDim2.new(0.723404229, 40, 0.445555552, 0)
+Next.Size = UDim2.new(0, 40, 0, 20)
+Next.Font = Enum.Font.SourceSans
+Next.Text = ">"
+Next.TextColor3 = Color3.fromRGB(0, 0, 0)
+Next.TextSize = 14.000
+Next.TextWrapped = true
+Next.TextScaled = true
+
+Next2.Name = "->"
+Next2.Parent = mainframe2
+Next2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Next2.Position = UDim2.new(0.723404229, 40, 0.445555552, 0)
+Next2.Size = UDim2.new(0, 40, 0, 20)
+Next2.Font = Enum.Font.SourceSans
+Next2.Text = ">"
+Next2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Next2.TextSize = 14.000
+Next2.TextWrapped = true
+Next2.TextScaled = true
+
+Next3.Name = "->2"
+Next3.Parent = mainframe2
+Next3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Next3.Position = UDim2.new(0.723404229, 40, 0.445555552, 0)
+Next3.Size = UDim2.new(0, 40, 0, 20)
+Next3.Font = Enum.Font.SourceSans
+Next3.Text = ">>"
+Next3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Next3.TextSize = 14.000
+Next3.TextWrapped = true
+Next3.TextScaled = true
+Next3.Visible = false
+
+previous.Name = "<-"
+previous.Parent = mainframe
+previous.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+previous.Position = UDim2.new(0.723404229, 40, 0.645555552, 0)
+previous.Size = UDim2.new(0, 40, 0, 20)
+previous.Font = Enum.Font.SourceSans
+previous.Text = "<"
+previous.TextColor3 = Color3.fromRGB(0, 0, 0)
+previous.TextSize = 14.000
+previous.TextWrapped = true
+previous.TextScaled = true
+previous.Visible = false
+
+previous2.Name = "<-"
+previous2.Parent = mainframe2
+previous2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+previous2.Position = UDim2.new(0.723404229, 40, 0.645555552, 0)
+previous2.Size = UDim2.new(0, 40, 0, 20)
+previous2.Font = Enum.Font.SourceSans
+previous2.Text = "<"
+previous2.TextColor3 = Color3.fromRGB(0, 0, 0)
+previous2.TextSize = 14.000
+previous2.TextWrapped = true
+previous2.TextScaled = true
+previous2.Visible = false
+
+previous3.Name = "2<-"
+previous3.Parent = mainframe2
+previous3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+previous3.Position = UDim2.new(0.723404229, 40, 0.645555552, 0)
+previous3.Size = UDim2.new(0, 40, 0, 20)
+previous3.Font = Enum.Font.SourceSans
+previous3.Text = "<<"
+previous3.TextColor3 = Color3.fromRGB(0, 0, 0)
+previous3.TextSize = 14.000
+previous3.TextWrapped = true
+previous3.TextScaled = true
+previous3.Visible = false
+
+TPs.Name = "TP"
+TPs.Parent = mainframe
+TPs.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TPs.Position = UDim2.new(0.723404229, -200, 0.290555552, 0)
+TPs.Size = UDim2.new(0, 48, 0, 20)
+TPs.Font = Enum.Font.SourceSans
+TPs.Text = "Teleports"
+TPs.TextColor3 = Color3.fromRGB(0, 0, 0)
+TPs.TextSize = 14.000
+TPs.TextWrapped = true
+TPs.TextScaled = true
+
+Shop.Name = "Shop"
+Shop.Parent = mainframe
+Shop.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Shop.Position = UDim2.new(0.723404229, -200, 0.430555552, 0)
+Shop.Size = UDim2.new(0, 48, 0, 20)
+Shop.Font = Enum.Font.SourceSans
+Shop.Text = "Shop"
+Shop.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shop.TextSize = 14.000
+Shop.TextWrapped = true
+Shop.TextScaled = true
+
+Ani.Name = "A"
+Ani.Parent = mainframe
+Ani.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Ani.Position = UDim2.new(0.723404229, -147, 0.290555552, 0)
+Ani.Size = UDim2.new(0, 50, 0, 20)
+Ani.Font = Enum.Font.SourceSans
+Ani.Text = "Anti"
+Ani.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ani.TextSize = 14.000
+Ani.TextWrapped = true
+Ani.TextScaled = true
+
+Teams.Name = "Teams"
+Teams.Parent = mainframe
+Teams.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Teams.Position = UDim2.new(0.723404229, -147, 0.430555552, 0)
+Teams.Size = UDim2.new(0, 50, 0, 20)
+Teams.Font = Enum.Font.SourceSans
+Teams.Text = "Teams"
+Teams.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teams.TextSize = 14.000
+Teams.TextWrapped = true
+Teams.TextScaled = true
+
+Anti.Name = "A-i"
+Anti.Parent = mainframe3
+Anti.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Anti.Position = UDim2.new(0.723404229, -200, 0.155555552, 0)
+Anti.Size = UDim2.new(0, 100, 0, 20)
+Anti.Font = Enum.Font.SourceSans
+Anti.Text = "Anti-Ban"
+Anti.TextColor3 = Color3.fromRGB(0, 0, 0)
+Anti.TextSize = 14.000
+Anti.TextWrapped = true
+Anti.TextScaled = true
+
+Anti2.Name = "A-i2"
+Anti2.Parent = mainframe3
+Anti2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Anti2.Position = UDim2.new(0.723404229, -200, 0.415555552, 0)
+Anti2.Size = UDim2.new(0, 100, 0, 20)
+Anti2.Font = Enum.Font.SourceSans
+Anti2.Text = "Anti-Proof"
+Anti2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Anti2.TextSize = 14.000
+Anti2.TextWrapped = true
+Anti2.TextScaled = true
+
+Hide.Name = "Hide"
+Hide.Parent = mainframe3
+Hide.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Hide.Position = UDim2.new(0.723404229, -200, 0.285555552, 0)
+Hide.Size = UDim2.new(0, 100, 0, 20)
+Hide.Font = Enum.Font.SourceSans
+Hide.Text = "Hide Name"
+Hide.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hide.TextSize = 14.000
+Hide.TextWrapped = true
+Hide.TextScaled = true
+
+Dr.Name = "Dr"
+Dr.Parent = mainframe4
+Dr.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Dr.Position = UDim2.new(0.723404229, -200, 0.155555552, 0)
+Dr.Size = UDim2.new(0, 200, 0, 20)
+Dr.Font = Enum.Font.SourceSans
+Dr.Text = "No Doors"
+Dr.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dr.TextSize = 14.000
+Dr.TextWrapped = true
+Dr.TextScaled = true
+Dr.Visible = true
+
+Misc.Name = "M"
+Misc.Parent = mainframe
+Misc.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Misc.Position = UDim2.new(0.723404229, -92, 0.290555552, 0)
+Misc.Size = UDim2.new(0, 50, 0, 20)
+Misc.Font = Enum.Font.SourceSans
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Misc.TextSize = 14.000
+Misc.TextWrapped = true
+Misc.TextScaled = true
+Misc.Visible = true
+
+Random.Name = "R"
+Random.Parent = mainframe
+Random.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Random.Position = UDim2.new(0.723404229, -200, 0.155555552, 0)
+Random.Size = UDim2.new(0, 100, 0, 20)
+Random.Font = Enum.Font.SourceSans
+Random.Text = "FE Big Head!"
+Random.TextColor3 = Color3.fromRGB(0, 0, 0)
+Random.TextSize = 14.000
+Random.TextWrapped = true
+Random.TextScaled = true
+Random.Visible = false
+
+Random2.Name = "R2"
+Random2.Parent = mainframe
+Random2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Random2.Position = UDim2.new(0.723404229, -200, 0.285555552, 0)
+Random2.Size = UDim2.new(0, 100, 0, 20)
+Random2.Font = Enum.Font.SourceSans
+Random2.Text = "FE Big Head (Smaller)"
+Random2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Random2.TextSize = 14.000
+Random2.TextWrapped = true
+Random2.TextScaled = true
+Random2.Visible = false
+
+Random3.Name = "R3"
+Random3.Parent = mainframe
+Random3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Random3.Position = UDim2.new(0.723404229, -200, 0.415555552, 0)
+Random3.Size = UDim2.new(0, 100, 0, 20)
+Random3.Font = Enum.Font.SourceSans
+Random3.Text = "FE Thin"
+Random3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Random3.TextSize = 14.000
+Random3.TextWrapped = true
+Random3.TextScaled = true
+Random3.Visible = false
+
+Random4.Name = "R4"
+Random4.Parent = mainframe
+Random4.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Random4.Position = UDim2.new(0.723404229, -200, 0.545555552, 0)
+Random4.Size = UDim2.new(0, 100, 0, 20)
+Random4.Font = Enum.Font.SourceSans
+Random4.Text = "FlyJump (By Me)"
+Random4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Random4.TextSize = 14.000
+Random4.TextWrapped = true
+Random4.TextScaled = true
+Random4.Visible = false
+
+Random5.Name = "R5"
+Random5.Parent = mainframe
+Random5.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Random5.Position = UDim2.new(0.723404229, -200, 0.675555552, 0)
+Random5.Size = UDim2.new(0, 100, 0, 20)
+Random5.Font = Enum.Font.SourceSans
+Random5.Text = "FE God Mode"
+Random5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Random5.TextSize = 14.000
+Random5.TextWrapped = true
+Random5.TextScaled = true
+Random5.Visible = false
+
+Random6.Name = "R6"
+Random6.Parent = mainframe
+Random6.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Random6.Position = UDim2.new(0.723404229, -200, 0.805555552, 0)
+Random6.Size = UDim2.new(0, 100, 0, 20)
+Random6.Font = Enum.Font.SourceSans
+Random6.Text = "FE TROLLING GUI"
+Random6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Random6.TextSize = 14.000
+Random6.TextWrapped = true
+Random6.TextScaled = true
+Random6.Visible = false
+
+Mis.Name = "Mis"
+Mis.Parent = mainframe4
+Mis.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Mis.Position = UDim2.new(0.723404229, -200, 0.415555552, 0)
+Mis.Size = UDim2.new(0, 200, 0, 20)
+Mis.Font = Enum.Font.SourceSans
+Mis.Text = "Auto TP On Death"
+Mis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mis.TextSize = 14.000
+Mis.TextWrapped = true
+Mis.TextScaled = true
+Mis.Visible = true
+
+Mis2.Name = "Mis2"
+Mis2.Parent = mainframe4
+Mis2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Mis2.Position = UDim2.new(0.723404229, -200, 0.285555552, 0)
+Mis2.Size = UDim2.new(0, 200, 0, 20)
+Mis2.Font = Enum.Font.SourceSans
+Mis2.Text = "No Stuff (Scp boxes,Vents,etc..)"
+Mis2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mis2.TextSize = 14.000
+Mis2.TextWrapped = true
+Mis2.TextScaled = true
+Mis2.Visible = true
+
+Mis3.Name = "Mis3"
+Mis3.Parent = mainframe4
+Mis3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Mis3.Position = UDim2.new(0.723404229, -200, 0.545555552, 0)
+Mis3.Size = UDim2.new(0, 200, 0, 20)
+Mis3.Font = Enum.Font.SourceSans
+Mis3.Text = "No Jump Cooldown"
+Mis3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mis3.TextSize = 14.000
+Mis3.TextWrapped = true
+Mis3.TextScaled = true
+Mis3.Visible = true
+
+Mis4.Name = "Mis4"
+Mis4.Parent = mainframe4
+Mis4.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Mis4.Position = UDim2.new(0.723404229, -200, 0.675555552, 0)
+Mis4.Size = UDim2.new(0, 200, 0, 20)
+Mis4.Font = Enum.Font.SourceSans
+Mis4.Text = "nil-2"
+Mis4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mis4.TextSize = 14.000
+Mis4.TextWrapped = true
+Mis4.TextScaled = true
+Mis4.Visible = true
+
+Farms.Name = "F"
+Farms.Parent = mainframe
+Farms.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Farms.Position = UDim2.new(0.723404229, -37, 0.290555552, 0)
+Farms.Size = UDim2.new(0, 50, 0, 20)
+Farms.Font = Enum.Font.SourceSans
+Farms.Text = "Farms"
+Farms.TextColor3 = Color3.fromRGB(0, 0, 0)
+Farms.TextSize = 14.000
+Farms.TextWrapped = true
+Farms.TextScaled = true
+Farms.Visible = true
+
+Auto.Name = "Auto"
+Auto.Parent = mainframe
+Auto.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Auto.Position = UDim2.new(0.723404229, -200, 0.565555552, 0)
+Auto.Size = UDim2.new(0, 100, 0, 20)
+Auto.Font = Enum.Font.SourceSans
+Auto.Text = "Auto Max WalkSpeed"
+Auto.TextColor3 = Color3.fromRGB(0, 0, 0)
+Auto.TextSize = 14.000
+Auto.TextWrapped = true
+Auto.TextScaled = true
+
+Auto2.Name = "Auto2"
+Auto2.Parent = mainframe
+Auto2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Auto2.Position = UDim2.new(0.723404229, -94, 0.565555552, 0)
+Auto2.Size = UDim2.new(0, 100, 0, 20)
+Auto2.Font = Enum.Font.SourceSans
+Auto2.Text = "Auto Max JumpPower"
+Auto2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Auto2.TextSize = 14.000
+Auto2.TextWrapped = true
+Auto2.TextScaled = true
+
+AutoF.Name = "AutoFarm1"
+AutoF.Parent = mainframe5
+AutoF.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+AutoF.Position = UDim2.new(0.723404229, -200, 0.155555552, 0)
+AutoF.Size = UDim2.new(0, 200, 0, 20)
+AutoF.Font = Enum.Font.SourceSans
+AutoF.Text = "ItemFarm Credits & Exp (Class-D Only)"
+AutoF.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoF.TextSize = 14.000
+AutoF.TextWrapped = true
+AutoF.TextScaled = true
+
+Lab.Name = "L"
+Lab.Parent = mainframe2
+Lab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lab.Size = UDim2.new(0, 282, 0, 22)
+Lab.Font = Enum.Font.SourceSans
+Lab.Text = "Locations"
+Lab.TextColor3 = Color3.fromRGB(98, 37, 209)
+Lab.TextSize = 14.000
+Lab.TextWrapped = true
+Lab.TextScaled = true
+
+Lab2.Name = "L"
+Lab2.Parent = mainframe3
+Lab2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lab2.Size = UDim2.new(0, 282, 0, 22)
+Lab2.Font = Enum.Font.SourceSans
+Lab2.Text = "Anti"
+Lab2.TextColor3 = Color3.fromRGB(98, 37, 209)
+Lab2.TextSize = 14.000
+Lab2.TextWrapped = true
+Lab2.TextScaled = true
+
+Lab3.Name = "L"
+Lab3.Parent = mainframe4
+Lab3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lab3.Size = UDim2.new(0, 282, 0, 22)
+Lab3.Font = Enum.Font.SourceSans
+Lab3.Text = "Misc"
+Lab3.TextColor3 = Color3.fromRGB(98, 37, 209)
+Lab3.TextSize = 14.000
+Lab3.TextWrapped = true
+Lab3.TextScaled = true
+
+Lab4.Name = "L"
+Lab4.Parent = mainframe5
+Lab4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lab4.Size = UDim2.new(0, 282, 0, 22)
+Lab4.Font = Enum.Font.SourceSans
+Lab4.Text = "Farms"
+Lab4.TextColor3 = Color3.fromRGB(98, 37, 209)
+Lab4.TextSize = 14.000
+Lab4.TextWrapped = true
+Lab4.TextScaled = true
+
+Lab5.Name = "L"
+Lab5.Parent = mainframe6
+Lab5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lab5.Size = UDim2.new(0, 282, 0, 22)
+Lab5.Font = Enum.Font.SourceSans
+Lab5.Text = "Shop"
+Lab5.TextColor3 = Color3.fromRGB(98, 37, 209)
+Lab5.TextSize = 14.000
+Lab5.TextWrapped = true
+Lab5.TextScaled = true
+
+Lab6.Name = "L"
+Lab6.Parent = mainframe7
+Lab6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lab6.Size = UDim2.new(0, 282, 0, 22)
+Lab6.Font = Enum.Font.SourceSans
+Lab6.Text = "Teams"
+Lab6.TextColor3 = Color3.fromRGB(98, 37, 209)
+Lab6.TextSize = 14.000
+Lab6.TextWrapped = true
+Lab6.TextScaled = true
+
+Lab7.Name = "L"
+Lab7.Parent = mainframe8
+Lab7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lab7.Size = UDim2.new(0, 282, 0, 22)
+Lab7.Font = Enum.Font.SourceSans
+Lab7.Text = ""
+Lab7.TextColor3 = Color3.fromRGB(98, 37, 209)
+Lab7.TextSize = 14.000
+Lab7.TextWrapped = true
+Lab7.TextScaled = true
+
+orbit.Name = "orbit"
+orbit.Parent = mainframe
+orbit.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+orbit.Position = UDim2.new(0.0283687934, -2, 0.154444442, 0)
+orbit.Size = UDim2.new(0, 85, 0, 21)
+orbit.Font = Enum.Font.SourceSans
+orbit.Text = "orbit Scar-H CD"
+orbit.TextColor3 = Color3.fromRGB(0, 0, 0)
+orbit.TextSize = 14.000
+orbit.TextWrapped = true
+orbit.TextScaled = true
+
+orbit2.Name = "orbit2"
+orbit2.Parent = mainframe
+orbit2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+orbit2.Position = UDim2.new(0.0283687934, 88, 0.154444442, 0)
+orbit2.Size = UDim2.new(0, 85, 0, 21)
+orbit2.Font = Enum.Font.SourceSans
+orbit2.Text = "orbit Scar-H To Ci"
+orbit2.TextColor3 = Color3.fromRGB(0, 0, 0)
+orbit2.TextSize = 14.000
+orbit2.TextWrapped = true
+orbit2.TextScaled = true
+
+tp.Name = "SCD"
+tp.Parent = mainframe2
+tp.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp.Position = UDim2.new(0.723404229, -195, 0.295555552, 0)
+tp.Size = UDim2.new(0, 48, 0, 20)
+tp.Font = Enum.Font.SourceSans
+tp.Text = "SCD"
+tp.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp.TextSize = 14.000
+tp.TextWrapped = true
+tp.TextScaled = true
+
+tp2.Name = "CD"
+tp2.Parent = mainframe2
+tp2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp2.Position = UDim2.new(0.723404229, -195, 0.155555552, 0)
+tp2.Size = UDim2.new(0, 48, 0, 20)
+tp2.Font = Enum.Font.SourceSans
+tp2.Text = "CD"
+tp2.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp2.TextSize = 14.000
+tp2.TextWrapped = true
+tp2.TextScaled = true
+
+tp3.Name = "SD"
+tp3.Parent = mainframe2
+tp3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp3.Position = UDim2.new(0.723404229, -195, 0.435555552, 0)
+tp3.Size = UDim2.new(0, 48, 0, 20)
+tp3.Font = Enum.Font.SourceSans
+tp3.Text = "SD"
+tp3.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp3.TextSize = 14.000
+tp3.TextWrapped = true
+tp3.TextScaled = true
+
+tp4.Name = "NTF"
+tp4.Parent = mainframe2
+tp4.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp4.Position = UDim2.new(0.723404229, -195, 0.575555552, 0)
+tp4.Size = UDim2.new(0, 48, 0, 20)
+tp4.Font = Enum.Font.SourceSans
+tp4.Text = "MTF"
+tp4.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp4.TextSize = 14.000
+tp4.TextWrapped = true
+tp4.TextScaled = true
+
+tp5.Name = "IA & ISD"
+tp5.Parent = mainframe2
+tp5.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp5.Position = UDim2.new(0.723404229, -139, 0.155555552, 0)
+tp5.Size = UDim2.new(0, 48, 0, 20)
+tp5.Font = Enum.Font.SourceSans
+tp5.Text = "AG"
+tp5.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp5.TextSize = 14.000
+tp5.TextWrapped = true
+tp5.TextScaled = true
+
+tp6.Name = "RRT"
+tp6.Parent = mainframe2
+tp6.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp6.Position = UDim2.new(0.723404229, -139, 0.295555552, 0)
+tp6.Size = UDim2.new(0, 48, 0, 20)
+tp6.Font = Enum.Font.SourceSans
+tp6.Text = "RRT"
+tp6.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp6.TextSize = 14.000
+tp6.TextWrapped = true
+tp6.TextScaled = true
+
+tp7.Name = "CI"
+tp7.Parent = mainframe2
+tp7.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp7.Position = UDim2.new(0.723404229, -139, 0.435555552, 0)
+tp7.Size = UDim2.new(0, 48, 0, 20)
+tp7.Font = Enum.Font.SourceSans
+tp7.Text = "CI"
+tp7.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp7.TextSize = 14.000
+tp7.TextWrapped = true
+tp7.TextScaled = true
+
+tp8.Name = "MS"
+tp8.Parent = mainframe2
+tp8.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp8.Position = UDim2.new(0.723404229, -139, 0.575555552, 0)
+tp8.Size = UDim2.new(0, 48, 0, 20)
+tp8.Font = Enum.Font.SourceSans
+tp8.Text = "MS"
+tp8.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp8.TextSize = 14.000
+tp8.TextWrapped = true
+tp8.TextScaled = true
+
+tp9.Name = "AD"
+tp9.Parent = mainframe2
+tp9.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp9.Position = UDim2.new(0.723404229, -83, 0.15555552, 0)
+tp9.Size = UDim2.new(0, 48, 0, 20)
+tp9.Font = Enum.Font.SourceSans
+tp9.Text = "AD"
+tp9.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp9.TextSize = 14.000
+tp9.TextWrapped = true
+tp9.TextScaled = true
+
+tp10.Name = "O5C"
+tp10.Parent = mainframe2
+tp10.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp10.Position = UDim2.new(0.723404229, -83, 0.295555552, 0)
+tp10.Size = UDim2.new(0, 48, 0, 20)
+tp10.Font = Enum.Font.SourceSans
+tp10.Text = "O5 Council"
+tp10.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp10.TextSize = 13.000
+tp10.TextWrapped = true
+tp10.TextScaled = true
+
+tp11.Name = "O5"
+tp11.Parent = mainframe2
+tp11.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp11.Position = UDim2.new(0.723404229, -83, 0.435555552, 0)
+tp11.Size = UDim2.new(0, 48, 0, 20)
+tp11.Font = Enum.Font.SourceSans
+tp11.Text = "O5"
+tp11.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp11.TextSize = 14.000
+tp11.TextWrapped = true
+tp11.TextScaled = true
+
+tp12.Name = "NS"
+tp12.Parent = mainframe2
+tp12.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp12.Position = UDim2.new(0.723404229, -83, 0.575055552, 0)
+tp12.Size = UDim2.new(0, 48, 0, 20)
+tp12.Font = Enum.Font.SourceSans
+tp12.Text = "NS"
+tp12.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp12.TextSize = 14.000
+tp12.TextWrapped = true
+tp12.TextScaled = true
+
+tp13.Name = "CS"
+tp13.Parent = mainframe2
+tp13.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp13.Position = UDim2.new(0.723404229, -195, 0.715055552, 0)
+tp13.Size = UDim2.new(0, 48, 0, 20)
+tp13.Font = Enum.Font.SourceSans
+tp13.Text = "CS"
+tp13.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp13.TextSize = 14.000
+tp13.TextWrapped = true
+tp13.TextScaled = true
+
+tp14.Name = "BS"
+tp14.Parent = mainframe2
+tp14.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp14.Position = UDim2.new(0.723404229, -139, 0.715055552, 0)
+tp14.Size = UDim2.new(0, 48, 0, 20)
+tp14.Font = Enum.Font.SourceSans
+tp14.Text = "BS"
+tp14.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp14.TextSize = 14.000
+tp14.TextWrapped = true
+tp14.TextScaled = true
+
+tp15.Name = "H"
+tp15.Parent = mainframe2
+tp15.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp15.Position = UDim2.new(0.723404229, -83, 0.715055552, 0)
+tp15.Size = UDim2.new(0, 48, 0, 20)
+tp15.Font = Enum.Font.SourceSans
+tp15.Text = "Helipad"
+tp15.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp15.TextSize = 14.000
+tp15.TextWrapped = true
+tp15.TextScaled = true
+
+tp16.Name = "MR"
+tp16.Parent = mainframe2
+tp16.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp16.Position = UDim2.new(0.723404229, -195, 0.849055552, 0)
+tp16.Size = UDim2.new(0, 48, 0, 20)
+tp16.Font = Enum.Font.SourceSans
+tp16.Text = "MR"
+tp16.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp16.TextSize = 14.000
+tp16.TextWrapped = true
+tp16.TextScaled = true
+
+tp17.Name = "C4B"
+tp17.Parent = mainframe2
+tp17.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp17.Position = UDim2.new(0.723404229, -139, 0.849055552, 0)
+tp17.Size = UDim2.new(0, 48, 0, 20)
+tp17.Font = Enum.Font.SourceSans
+tp17.Text = "C4B"
+tp17.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp17.TextSize = 14.000
+tp17.TextWrapped = true
+tp17.TextScaled = true
+
+tp18.Name = "CDC"
+tp18.Parent = mainframe2
+tp18.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp18.Position = UDim2.new(0.723404229, -83, 0.849055552, 0)
+tp18.Size = UDim2.new(0, 48, 0, 20)
+tp18.Font = Enum.Font.SourceSans
+tp18.Text = "CDC"
+tp18.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp18.TextSize = 14.000
+tp18.TextWrapped = true
+tp18.TextScaled = true
+
+tp19.Name = "HR"
+tp19.Parent = mainframe2
+tp19.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp19.Position = UDim2.new(0.723404229, -27, 0.156055552, 0)
+tp19.Size = UDim2.new(0, 48, 0, 20)
+tp19.Font = Enum.Font.SourceSans
+tp19.Text = "HR"
+tp19.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp19.TextSize = 14.000
+tp19.TextWrapped = true
+tp19.TextScaled = true
+
+tp20.Name = "NGate"
+tp20.Parent = mainframe2
+tp20.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp20.Position = UDim2.new(0.723404229, -27, 0.295055552, 0)
+tp20.Size = UDim2.new(0, 48, 0, 20)
+tp20.Font = Enum.Font.SourceSans
+tp20.Text = "CS-2"
+tp20.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp20.TextSize = 14.000
+tp20.TextWrapped = true
+tp20.TextScaled = true
+
+tp21.Name = "C4"
+tp21.Parent = mainframe2
+tp21.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp21.Position = UDim2.new(0.723404229, -27, 0.435055552, 0)
+tp21.Size = UDim2.new(0, 48, 0, 20)
+tp21.Font = Enum.Font.SourceSans
+tp21.Text = "C4"
+tp21.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp21.TextSize = 14.000
+tp21.TextWrapped = true
+tp21.TextScaled = true
+
+tp22.Name = "NS2"
+tp22.Parent = mainframe2
+tp22.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp22.Position = UDim2.new(0.723404229, -27, 0.575055552, 0)
+tp22.Size = UDim2.new(0, 48, 0, 20)
+tp22.Font = Enum.Font.SourceSans
+tp22.Text = "NS-2"
+tp22.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp22.TextSize = 14.000
+tp22.TextWrapped = true
+tp22.TextScaled = true
+
+tp23.Name = "OuSi"
+tp23.Parent = mainframe2
+tp23.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp23.Position = UDim2.new(0.723404229, -27, 0.715055552, 0)
+tp23.Size = UDim2.new(0, 48, 0, 20)
+tp23.Font = Enum.Font.SourceSans
+tp23.Text = "OutSide"
+tp23.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp23.TextSize = 14.000
+tp23.TextWrapped = true
+tp23.TextScaled = true
+
+tp24.Name = "CDC2"
+tp24.Parent = mainframe2
+tp24.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp24.Position = UDim2.new(0.723404229, -27, 0.849055552, 0)
+tp24.Size = UDim2.new(0, 48, 0, 20)
+tp24.Font = Enum.Font.SourceSans
+tp24.Text = "CDC-2"
+tp24.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp24.TextSize = 14.000
+tp24.TextWrapped = true
+tp24.TextScaled = true
+
+tp25.Name = "OuSi2"
+tp25.Parent = mainframe2
+tp25.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp25.Position = UDim2.new(0.723404229, -195, 0.155555552, 0)
+tp25.Size = UDim2.new(0, 48, 0, 20)
+tp25.Font = Enum.Font.SourceSans
+tp25.Text = "OutSide-2"
+tp25.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp25.TextSize = 13.000
+tp25.TextWrapped = true
+tp25.TextScaled = true
+tp25.Visible = false
+
+tp26.Name = "OuSi3"
+tp26.Parent = mainframe2
+tp26.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp26.Position = UDim2.new(0.723404229, -139, 0.155555552, 0)
+tp26.Size = UDim2.new(0, 48, 0, 20)
+tp26.Font = Enum.Font.SourceSans
+tp26.Text = "OutSide-3"
+tp26.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp26.TextSize = 14.000
+tp26.TextWrapped = true
+tp26.TextScaled = true
+tp26.Visible = false
+
+tp27.Name = "S1"
+tp27.Parent = mainframe2
+tp27.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp27.Position = UDim2.new(0.723404229, -83, 0.15555552, 0)
+tp27.Size = UDim2.new(0, 48, 0, 20)
+tp27.Font = Enum.Font.SourceSans
+tp27.Text = "S 1"
+tp27.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp27.TextSize = 14.000
+tp27.TextWrapped = true
+tp27.TextScaled = true
+tp27.Visible = false
+
+tp28.Name = "S3"
+tp28.Parent = mainframe2
+tp28.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp28.Position = UDim2.new(0.723404229, -27, 0.156055552, 0)
+tp28.Size = UDim2.new(0, 48, 0, 20)
+tp28.Font = Enum.Font.SourceSans
+tp28.Text = "S 3"
+tp28.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp28.TextSize = 14.000
+tp28.TextWrapped = true
+tp28.TextScaled = true
+tp28.Visible = false
+
+tp29.Name = "CR"
+tp29.Parent = mainframe2
+tp29.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp29.Position = UDim2.new(0.723404229, -195, 0.295555552, 0)
+tp29.Size = UDim2.new(0, 48, 0, 20)
+tp29.Font = Enum.Font.SourceSans
+tp29.Text = "CR"
+tp29.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp29.TextSize = 14.000
+tp29.TextWrapped = true
+tp29.TextScaled = true
+tp29.Visible = false
+
+tp30.Name = "CR2"
+tp30.Parent = mainframe2
+tp30.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp30.Position = UDim2.new(0.723404229, -139, 0.295555552, 0)
+tp30.Size = UDim2.new(0, 48, 0, 20)
+tp30.Font = Enum.Font.SourceSans
+tp30.Text = "CR-2"
+tp30.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp30.TextSize = 14.000
+tp30.TextWrapped = true
+tp30.TextScaled = true
+tp30.Visible = false
+
+tp31.Name = "MS2"
+tp31.Parent = mainframe2
+tp31.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp31.Position = UDim2.new(0.723404229, -83, 0.295555552, 0)
+tp31.Size = UDim2.new(0, 48, 0, 20)
+tp31.Font = Enum.Font.SourceSans
+tp31.Text = "MS-2"
+tp31.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp31.TextSize = 14.000
+tp31.TextWrapped = true
+tp31.TextScaled = true
+tp31.Visible = false
+
+tp32.Name = "XR"
+tp32.Parent = mainframe2
+tp32.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp32.Position = UDim2.new(0.723404229, -27, 0.295055552, 0)
+tp32.Size = UDim2.new(0, 48, 0, 20)
+tp32.Font = Enum.Font.SourceSans
+tp32.Text = "X-Ray"
+tp32.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp32.TextSize = 14.000
+tp32.TextWrapped = true
+tp32.TextScaled = true
+tp32.Visible = false
+
+tp33.Name = "008D"
+tp33.Parent = mainframe2
+tp33.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp33.Position = UDim2.new(0.723404229, -195, 0.435555552, 0)
+tp33.Size = UDim2.new(0, 48, 0, 20)
+tp33.Font = Enum.Font.SourceSans
+tp33.Text = "008-D"
+tp33.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp33.TextSize = 14.000
+tp33.TextWrapped = true
+tp33.TextScaled = true
+tp33.Visible = false
+
+tp34.Name = "TrFs"
+tp34.Parent = mainframe2
+tp34.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp34.Position = UDim2.new(0.723404229, -139, 0.435555552, 0)
+tp34.Size = UDim2.new(0, 48, 0, 20)
+tp34.Font = Enum.Font.SourceSans
+tp34.Text = "Trans-Fs"
+tp34.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp34.TextSize = 14.000
+tp34.Visible = false
+tp34.TextWrapped = true
+tp34.TextScaled = true
+
+tp35.Name = "023"
+tp35.Parent = mainframe2
+tp35.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp35.Position = UDim2.new(0.723404229, -83, 0.435555552, 0)
+tp35.Size = UDim2.new(0, 48, 0, 20)
+tp35.Font = Enum.Font.SourceSans
+tp35.Text = "SCP-023"
+tp35.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp35.TextSize = 14.000
+tp35.Visible = false
+tp35.TextWrapped = true
+tp35.TextScaled = true
+
+tp36.Name = "131"
+tp36.Parent = mainframe2
+tp36.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp36.Position = UDim2.new(0.723404229, -27, 0.435055552, 0)
+tp36.Size = UDim2.new(0, 48, 0, 20)
+tp36.Font = Enum.Font.SourceSans
+tp36.Text = "SCP-131"
+tp36.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp36.TextSize = 14.000
+tp36.Visible = false
+tp36.TextWrapped = true
+tp36.TextScaled = true
+
+tp37.Name = "2950"
+tp37.Parent = mainframe2
+tp37.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp37.Position = UDim2.new(0.723404229, -195, 0.575555552, 0)
+tp37.Size = UDim2.new(0, 48, 0, 20)
+tp37.Font = Enum.Font.SourceSans
+tp37.Text = "SCP-2950"
+tp37.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp37.TextSize = 14.000
+tp37.Visible = false
+tp37.TextWrapped = true
+tp37.TextScaled = true
+
+tp38.Name = "173"
+tp38.Parent = mainframe2
+tp38.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp38.Position = UDim2.new(0.723404229, -139, 0.575555552, 0)
+tp38.Size = UDim2.new(0, 48, 0, 20)
+tp38.Font = Enum.Font.SourceSans
+tp38.Text = "SCP-173"
+tp38.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp38.TextSize = 14.000
+tp38.Visible = false
+tp38.TextWrapped = true
+tp38.TextScaled = true
+
+tp39.Name = "1732"
+tp39.Parent = mainframe2
+tp39.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp39.Position = UDim2.new(0.723404229, -83, 0.575055552, 0)
+tp39.Size = UDim2.new(0, 48, 0, 20)
+tp39.Font = Enum.Font.SourceSans
+tp39.Text = "173-2"
+tp39.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp39.TextSize = 14.000
+tp39.Visible = false
+tp39.TextWrapped = true
+tp39.TextScaled = true
+
+tp40.Name = "999"
+tp40.Parent = mainframe2
+tp40.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp40.Position = UDim2.new(0.723404229, -27, 0.575055552, 0)
+tp40.Size = UDim2.new(0, 48, 0, 20)
+tp40.Font = Enum.Font.SourceSans
+tp40.Text = "SCP-999"
+tp40.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp40.TextSize = 14.000
+tp40.Visible = false
+tp40.TextWrapped = true
+tp40.TextScaled = true
+
+tp41.Name = "066"
+tp41.Parent = mainframe2
+tp41.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp41.Position = UDim2.new(0.723404229, -195, 0.715055552, 0)
+tp41.Size = UDim2.new(0, 48, 0, 20)
+tp41.Font = Enum.Font.SourceSans
+tp41.Text = "SCP-066"
+tp41.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp41.TextSize = 14.000
+tp41.Visible = false
+tp41.TextWrapped = true
+tp41.TextScaled = true
+
+tp42.Name = "409"
+tp42.Parent = mainframe2
+tp42.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp42.Position = UDim2.new(0.723404229, -139, 0.715055552, 0)
+tp42.Size = UDim2.new(0, 48, 0, 20)
+tp42.Font = Enum.Font.SourceSans
+tp42.Text = "SCP-409"
+tp42.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp42.TextSize = 14.000
+tp42.Visible = false
+tp42.TextWrapped = true
+tp42.TextScaled = true
+
+tp43.Name = "1299"
+tp43.Parent = mainframe2
+tp43.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp43.Position = UDim2.new(0.723404229, -83, 0.715055552, 0)
+tp43.Size = UDim2.new(0, 48, 0, 20)
+tp43.Font = Enum.Font.SourceSans
+tp43.Text = "SCP-1299"
+tp43.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp43.TextSize = 14.000
+tp43.Visible = false
+tp43.TextWrapped = true
+tp43.TextScaled = true
+
+tp44.Name = "1025"
+tp44.Parent = mainframe2
+tp44.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp44.Position = UDim2.new(0.723404229, -27, 0.715055552, 0)
+tp44.Size = UDim2.new(0, 48, 0, 20)
+tp44.Font = Enum.Font.SourceSans
+tp44.Text = "SCP-1025"
+tp44.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp44.TextSize = 14.000
+tp44.Visible = false
+tp44.TextWrapped = true
+tp44.TextScaled = true
+
+tp45.Name = "008"
+tp45.Parent = mainframe2
+tp45.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp45.Position = UDim2.new(0.723404229, -195, 0.849055552, 0)
+tp45.Size = UDim2.new(0, 48, 0, 20)
+tp45.Font = Enum.Font.SourceSans
+tp45.Text = "SCP-008"
+tp45.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp45.TextSize = 14.000
+tp45.Visible = false
+tp45.TextWrapped = true
+tp45.TextScaled = true
+
+tp46.Name = "049"
+tp46.Parent = mainframe2
+tp46.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp46.Position = UDim2.new(0.723404229, -139, 0.849055552, 0)
+tp46.Size = UDim2.new(0, 48, 0, 20)
+tp46.Font = Enum.Font.SourceSans
+tp46.Text = "SCP-049"
+tp46.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp46.TextSize = 14.000
+tp46.Visible = false
+tp46.TextWrapped = true
+tp46.TextScaled = true
+
+tp47.Name = "966"
+tp47.Parent = mainframe2
+tp47.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp47.Position = UDim2.new(0.723404229, -83, 0.849055552, 0)
+tp47.Size = UDim2.new(0, 48, 0, 20)
+tp47.Font = Enum.Font.SourceSans
+tp47.Text = "SCP-966"
+tp47.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp47.TextSize = 14.000
+tp47.Visible = false
+tp47.TextWrapped = true
+tp47.TextScaled = true
+
+tp48.Name = "096"
+tp48.Parent = mainframe2
+tp48.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp48.Position = UDim2.new(0.723404229, -27, 0.849055552, 0)
+tp48.Size = UDim2.new(0, 48, 0, 20)
+tp48.Font = Enum.Font.SourceSans
+tp48.Text = "SCP-096"
+tp48.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp48.TextSize = 14.000
+tp48.Visible = false
+tp48.TextWrapped = true
+tp48.TextScaled = true
+
+tp49.Name = "457"
+tp49.Parent = mainframe2
+tp49.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp49.Position = UDim2.new(0.723404229, -195, 0.155555552, 0)
+tp49.Size = UDim2.new(0, 48, 0, 20)
+tp49.Font = Enum.Font.SourceSans
+tp49.Text = "SCP-457"
+tp49.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp49.TextSize = 13.000
+tp49.TextWrapped = true
+tp49.TextScaled = true
+tp49.Visible = false
+
+tp50.Name = "002"
+tp50.Parent = mainframe2
+tp50.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+tp50.Position = UDim2.new(0.723404229, -139, 0.155555552, 0)
+tp50.Size = UDim2.new(0, 48, 0, 20)
+tp50.Font = Enum.Font.SourceSans
+tp50.Text = "SCP-002"
+tp50.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp50.TextSize = 14.000
+tp50.TextWrapped = true
+tp50.TextScaled = true
+tp50.Visible = false
+
+N.Name = "N"
+N.Parent = mainframe
+N.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+N.Position = UDim2.new(0.0283687934, 178, 0.154444442, 0)
+N.Size = UDim2.new(0, 48, 0, 21)
+N.Font = Enum.Font.SourceSans
+N.Text = "Nuke"
+N.TextColor3 = Color3.fromRGB(0, 0, 0)
+N.TextSize = 14.000
+N.TextWrapped = true
+N.TextScaled = true
+
+Team1.Name = "Team1"
+Team1.Parent = mainframe7
+Team1.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team1.Position = UDim2.new(0.723404229, -200, 0.155555552, 0)
+Team1.Size = UDim2.new(0, 113, 0, 20)
+Team1.Font = Enum.Font.SourceSans
+Team1.Text = "Class-D"
+Team1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team1.TextSize = 14.000
+Team1.TextWrapped = true
+Team1.TextScaled = true
+
+Team2.Name = "Team2"
+Team2.Parent = mainframe7
+Team2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team2.Position = UDim2.new(0.723404229, -200, 0.285555552, 0)
+Team2.Size = UDim2.new(0, 113, 0, 20)
+Team2.Font = Enum.Font.SourceSans
+Team2.Text = "Scientific Department"
+Team2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team2.TextSize = 14.000
+Team2.TextWrapped = true
+Team2.TextScaled = true
+
+Team3.Name = "Team3"
+Team3.Parent = mainframe7
+Team3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team3.Position = UDim2.new(0.723404229, -200, 0.415555552, 0)
+Team3.Size = UDim2.new(0, 113, 0, 20)
+Team3.Font = Enum.Font.SourceSans
+Team3.Text = "Security Department"
+Team3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team3.TextSize = 14.000
+Team3.TextWrapped = true
+Team3.TextScaled = true
+
+Team4.Name = "Team4"
+Team4.Parent = mainframe7
+Team4.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team4.Position = UDim2.new(0.723404229, -200, 0.545555552, 0)
+Team4.Size = UDim2.new(0, 113, 0, 20)
+Team4.Font = Enum.Font.SourceSans
+Team4.Text = "Mobile Task Force"
+Team4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team4.TextSize = 14.000
+Team4.TextWrapped = true
+Team4.TextScaled = true
+
+Team5.Name = "Team5"
+Team5.Parent = mainframe7
+Team5.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team5.Position = UDim2.new(0.723404229, -200, 0.670555552, 0)
+Team5.Size = UDim2.new(0, 113, 0, 20)
+Team5.Font = Enum.Font.SourceSans
+Team5.Text = "Intelligence Agency"
+Team5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team5.TextSize = 14.000
+Team5.TextWrapped = true
+Team5.TextScaled = true
+
+Team6.Name = "Team6"
+Team6.Parent = mainframe7
+Team6.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team6.Position = UDim2.new(0.723404229, -80, 0.155555552, 0)
+Team6.Size = UDim2.new(0, 150, 0, 20)
+Team6.Font = Enum.Font.SourceSans
+Team6.Text = "Internal Security Department"
+Team6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team6.TextSize = 14.000
+Team6.TextWrapped = true
+Team6.TextScaled = true
+
+Team7.Name = "Team7"
+Team7.Parent = mainframe7
+Team7.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team7.Position = UDim2.new(0.723404229, -80, 0.285555552, 0)
+Team7.Size = UDim2.new(0, 150, 0, 20)
+Team7.Font = Enum.Font.SourceSans
+Team7.Text = "Rapid Response Team"
+Team7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team7.TextSize = 14.000
+Team7.TextWrapped = true
+Team7.TextScaled = true
+
+Team8.Name = "Team8"
+Team8.Parent = mainframe7
+Team8.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team8.Position = UDim2.new(0.723404229, -80, 0.415555552, 0)
+Team8.Size = UDim2.new(0, 150, 0, 20)
+Team8.Font = Enum.Font.SourceSans
+Team8.Text = "Chaos Insurgency"
+Team8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team8.TextSize = 14.000
+Team8.TextWrapped = true
+Team8.TextScaled = true
+
+Team9.Name = "Team9"
+Team9.Parent = mainframe7
+Team9.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team9.Position = UDim2.new(0.723404229, -80, 0.54555552, 0)
+Team9.Size = UDim2.new(0, 150, 0, 20)
+Team9.Font = Enum.Font.SourceSans
+Team9.Text = "Medical Department"
+Team9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team9.TextSize = 14.000
+Team9.TextWrapped = true
+Team9.TextScaled = true
+
+Team10.Name = "Team10"
+Team10.Parent = mainframe7
+Team10.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team10.Position = UDim2.new(0.723404229, -80, 0.670555552, 0)
+Team10.Size = UDim2.new(0, 150, 0, 20)
+Team10.Font = Enum.Font.SourceSans
+Team10.Text = "Administrative Department"
+Team10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team10.TextSize = 14.000
+Team10.TextWrapped = true
+Team10.TextScaled = true
+
+Team11.Name = "Team11"
+Team11.Parent = mainframe8
+Team11.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team11.Position = UDim2.new(0.723404229, -200, 0.155555552, 0)
+Team11.Size = UDim2.new(0, 270, 0, 20)
+Team11.Font = Enum.Font.SourceSans
+Team11.Text = "Nu-7"
+Team11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team11.TextSize = 14.000
+Team11.TextWrapped = true
+Team11.TextScaled = true
+
+Team12.Name = "Team12"
+Team12.Parent = mainframe8
+Team12.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team12.Position = UDim2.new(0.723404229, -200, 0.285555552, 0)
+Team12.Size = UDim2.new(0, 270, 0, 20)
+Team12.Font = Enum.Font.SourceSans
+Team12.Text = "Beta-7"
+Team12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team12.TextSize = 14.000
+Team12.TextWrapped = true
+Team12.TextScaled = true
+
+Team13.Name = "Team13"
+Team13.Parent = mainframe8
+Team13.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team13.Position = UDim2.new(0.723404229, -200, 0.415555552, 0)
+Team13.Size = UDim2.new(0, 270, 0, 20)
+Team13.Font = Enum.Font.SourceSans
+Team13.Text = "Epsilon-11"
+Team13.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team13.TextSize = 14.000
+Team13.TextWrapped = true
+Team13.TextScaled = true
+
+Team14.Name = "Team14"
+Team14.Parent = mainframe8
+Team14.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Team14.Position = UDim2.new(0.723404229, -200, 0.545555552, 0)
+Team14.Size = UDim2.new(0, 270, 0, 20)
+Team14.Font = Enum.Font.SourceSans
+Team14.Text = "Alpha-1"
+Team14.TextColor3 = Color3.fromRGB(0, 0, 0)
+Team14.TextSize = 14.000
+Team14.TextWrapped = true
+Team14.TextScaled = true
+
+item1.Name = "item1"
+item1.Parent = mainframe6
+item1.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+item1.Position = UDim2.new(0.723404229, -200, 0.155555552, 0)
+item1.Size = UDim2.new(0, 130, 0, 20)
+item1.Font = Enum.Font.SourceSans
+item1.Text = "Vest"
+item1.TextColor3 = Color3.fromRGB(0, 0, 0)
+item1.TextSize = 14.000
+item1.TextWrapped = true
+item1.TextScaled = true
+
+item2.Name = "item2"
+item2.Parent = mainframe6
+item2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+item2.Position = UDim2.new(0.723404229, -60, 0.155555552, 0)
+item2.Size = UDim2.new(0, 130, 0, 20)
+item2.Font = Enum.Font.SourceSans
+item2.Text = "Glock 17"
+item2.TextColor3 = Color3.fromRGB(0, 0, 0)
+item2.TextSize = 14.000
+item2.TextWrapped = true
+item2.TextScaled = true
+
+item3.Name = "item3"
+item3.Parent = mainframe6
+item3.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+item3.Position = UDim2.new(0.723404229, -200, 0.295555552, 0)
+item3.Size = UDim2.new(0, 130, 0, 20)
+item3.Font = Enum.Font.SourceSans
+item3.Text = "Scar - H"
+item3.TextColor3 = Color3.fromRGB(0, 0, 0)
+item3.TextSize = 14.000
+item3.TextWrapped = true
+item3.TextScaled = true
+
+item4.Name = "item4"
+item4.Parent = mainframe6
+item4.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+item4.Position = UDim2.new(0.723404229, -60, 0.295555552, 0)
+item4.Size = UDim2.new(0, 130, 0, 20)
+item4.Font = Enum.Font.SourceSans
+item4.Text = "Kriss Vector"
+item4.TextColor3 = Color3.fromRGB(0, 0, 0)
+item4.TextSize = 14.000
+item4.TextWrapped = true
+item4.TextScaled = true
+
+item5.Name = "item5"
+item5.Parent = mainframe6
+item5.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+item5.Position = UDim2.new(0.723404229, -200, 0.435555552, 0)
+item5.Size = UDim2.new(0, 130, 0, 20)
+item5.Font = Enum.Font.SourceSans
+item5.Text = "Spas - 12"
+item5.TextColor3 = Color3.fromRGB(0, 0, 0)
+item5.TextSize = 14.000
+item5.TextWrapped = true
+item5.TextScaled = true
+
+item6.Name = "item6"
+item6.Parent = mainframe6
+item6.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+item6.Position = UDim2.new(0.723404229, -60, 0.435555552, 0)
+item6.Size = UDim2.new(0, 130, 0, 20)
+item6.Font = Enum.Font.SourceSans
+item6.Text = "Nuke"
+item6.TextColor3 = Color3.fromRGB(0, 0, 0)
+item6.TextSize = 14.000
+item6.TextWrapped = true
+item6.TextScaled = true
+
+-- Scripts:
+
+local function T64ST_fake_script() -- mainframe.LocalScript 
+	local script = Instance.new('LocalScript', mainframe)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+orbit.MouseButton1Down:connect(function()
+wait(1)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightLowerArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightHand.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightUpperArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightFoot.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightLowerLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightUpperLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftFoot.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftLowerLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftUpperLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.UpperTorso.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LowerTorso.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftUpperArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftLowerArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftHand.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+wait(8)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightLowerArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightHand.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightUpperArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightFoot.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightLowerLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightUpperLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftFoot.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftLowerLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftUpperLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.UpperTorso.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LowerTorso.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftUpperArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftLowerArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftHand.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+wait(2)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.RightLowerArm.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.RightHand.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.RightUpperArm.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.RightFoot.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.RightLowerLeg.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.RightUpperLeg.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.LeftFoot.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.LeftLowerLeg.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.LeftUpperLeg.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.UpperTorso.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.LowerTorso.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.LeftUpperArm.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.LeftLowerArm.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.LeftHand.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(-66.675308227539, 40.347965240479, 465.1442565918)
+end)
+
+tp2.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75.870750427246, 40.482482910156, 465.45935058594)
+end)
+
+tp7.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-33.976573944092, 87.847991943359, 258.19854736328)
+end)
+
+orbit2.MouseButton1Down:connect(function()
+wait(1)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+wait(8)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+end)
+
+tp.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(283.80087280273, 40.347988128662, 39.854740142822)
+end)
+
+tp3.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-597.34643554688, 40.347988128662, -36.157238006592)
+end)
+
+tp4.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(410.45681762695, 40.349952697754, 64.888832092285)
+end)
+
+tp5.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-595.02984619141, 40.347988128662, 205.1683807373)
+end)
+
+tp6.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-466.83615112305, 93.699989318848, 53.153060913086)
+end)
+
+tp7.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-595.02984619141, 40.347988128662, 205.1683807373)
+end)
+
+tp8.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(102.94999694824, 40.349983215332, -133.11500549316)
+end)
+
+tp9.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-440.00769042969, 46.249980926514, 160.88163757324)
+end)
+
+tp10.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-486.29919433594, 50.299964904785, 112.08033752441)
+end)
+
+tp11.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-399.82998657227, 50.299964904785, 111.70188140869)
+end)
+
+tp12.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(231.82400512695, 31.300098419189, 501.49200439453)
+end)
+
+tp13.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(230.01582336426, 40.304439544678, 418.03005981445)
+end)
+
+tp14.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(234.37098693848, 40.304439544678, 461.83486938477)
+end)
+
+tp15.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-573.93298339844, 31.156761169434, 482.27853393555)
+end)
+
+tp16.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-34.510459899902, 9.6549243927002, -249.90878295898)
+end)
+
+tp17.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(192.72389221191, 40.347995758057, 196.47959899902)
+end)
+
+tp18.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.388465881348, 60.347602844238, 461.29168701172)
+end)
+
+tp19.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-148.58631896973, 36.597988128662, -179.84495544434)
+end)
+
+tp20.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(219.80192565918, 40.304439544678, 331.29928588867)
+end)
+
+tp21.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(195.85200500488, 46.500259399414, -71.439002990723)
+end)
+
+tp22.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(243.41534423828, 23.848049163818, 505.16445922852)
+end)
+
+tp23.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-593.50933837891, 40.33629989624, 414.25924682617)
+end)
+
+tp24.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.212966918945, 50.23441696167, 332.97439575195)
+end)
+
+tp25.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-563.33258056641, 40.703479766846, 351.85372924805)
+end)
+
+tp26.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-602.39379882813, 40.253463745117, 274.38842773438)
+end)
+
+tp27.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-554.01477050781, 40.34797668457, 57.347049713135)
+end)
+
+tp28.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(347.3483581543, 40.34797668457, 136.24546813965)
+end)
+
+tp29.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(105.26119232178, 33.997974395752, 229.40563964844)
+end)
+
+tp30.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(30.258146286011, 36.847988128662, 194.63482666016)
+end)
+
+tp31.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(167.85342407227, 40.347988128662, -325.22634887695)
+end)
+
+tp32.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(299.31378173828, 40.347988128662, -277.19281005859)
+end)
+
+tp33.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(181.84574890137, 40.347988128662, -177.13682556152)
+end)
+
+tp34.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-118.58444976807, 40.347988128662, -89.728469848633)
+end)
+
+tp35.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(256.54071044922, 40.347988128662, 254.3498840332)
+end)
+
+tp36.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-215.45681762695, 40.347988128662, 313.17816162109)
+end)
+
+tp37.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-249.49630737305, 40.347988128662, 204.74145507813)
+end)
+
+tp38.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(194.37120056152, 53.947982788086, 160.89672851563)
+end)
+
+tp39.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(209.74615478516, 40.347988128662, 116.9533996582)
+end)
+
+tp40.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-296.04782104492, 40.334568023682, 1.7179806232452)
+end)
+
+tp41.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-241.66488647461, 40.347988128662, -29.527334213257)
+end)
+
+tp42.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-86.438056945801, 36.377765655518, -19.235870361328)
+end)
+
+tp43.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(130.80612182617, 40.347988128662, -39.777599334717)
+end)
+
+tp44.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(256.51696777344, 40.347988128662, -64.105041503906)
+end)
+
+tp45.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(526.7900390625, 40.297969818115, 376.09222412109)
+end)
+
+tp46.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(601.99377441406, 40.347988128662, 75.548698425293)
+end)
+
+tp47.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(654.81671142578, 40.347988128662, 72.829811096191)
+end)
+
+tp48.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(639.4072265625, 40.347988128662, -168.02374267578)
+end)
+
+tp49.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(753.84173583984, 40.347988128662, -74.750396728516)
+end)
+
+tp50.MouseButton1Down:connect(function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.848640441895, 20.098503112793, 61.853820800781)
+end)
+
+Next.MouseButton1Down:connect(function()
+previous.Visible = true
+Next.Visible = false
+orbit.Visible = false
+orbit2.Visible = false
+TPs.Visible = false
+Ani.Visible = false
+Auto.Visible = false
+Misc.Visible = false
+Farms.Visible = false
+N.Visible = false
+Shop.Visible = false
+Teams.Visible = false
+Random.Visible = true
+Random2.Visible = true
+Random3.Visible = true
+Random4.Visible = true
+Random5.Visible = true
+Random6.Visible = true
+Auto2.Visible = false
+end)
+
+previous.MouseButton1Down:connect(function()
+previous.Visible = false
+Next.Visible = true
+orbit.Visible = true
+orbit2.Visible = true
+TPs.Visible = true
+Ani.Visible = true
+Auto.Visible = true
+Misc.Visible = true
+Farms.Visible = true
+Shop.Visible = true
+Teams.Visible = true
+N.Visible = true
+Random.Visible = false
+Random2.Visible = false
+Random3.Visible = false
+Random4.Visible = false
+Random5.Visible = false
+Random6.Visible = false
+Auto2.Visible = true
+end)
+
+Next2.MouseButton1Down:connect(function()
+previous2.Visible = true
+Next2.Visible = false
+Next3.Visible = true
+tp.Visible = false
+tp2.Visible = false
+tp3.Visible = false
+tp4.Visible = false
+tp5.Visible = false
+tp6.Visible = false
+tp7.Visible = false
+tp8.Visible = false
+tp9.Visible = false
+tp10.Visible = false
+tp11.Visible = false
+tp12.Visible = false
+tp13.Visible = false
+tp14.Visible = false
+tp15.Visible = false
+tp16.Visible = false
+tp17.Visible = false
+tp18.Visible = false
+tp19.Visible = false
+tp20.Visible = false
+tp21.Visible = false
+tp22.Visible = false
+tp23.Visible = false
+tp24.Visible = false
+tp25.Visible = true
+tp26.Visible = true
+tp27.Visible = true
+tp28.Visible = true
+tp29.Visible = true
+tp30.Visible = true
+tp31.Visible = true
+tp32.Visible = true
+tp33.Visible = true
+tp34.Visible = true
+tp35.Visible = true
+tp36.Visible = true
+tp37.Visible = true
+tp38.Visible = true
+tp39.Visible = true
+tp40.Visible = true
+tp41.Visible = true
+tp42.Visible = true
+tp43.Visible = true
+tp44.Visible = true
+tp45.Visible = true
+tp46.Visible = true
+tp47.Visible = true
+tp48.Visible = true
+end)
+
+previous2.MouseButton1Down:connect(function()
+Next2.Visible = true
+previous2.Visible = false
+Next3.Visible = false
+tp.Visible = true
+tp2.Visible = true
+tp3.Visible = true
+tp4.Visible = true
+tp5.Visible = true
+tp6.Visible = true
+tp7.Visible = true
+tp8.Visible = true
+tp9.Visible = true
+tp10.Visible = true
+tp11.Visible = true
+tp12.Visible = true
+tp13.Visible = true
+tp14.Visible = true
+tp15.Visible = true
+tp16.Visible = true
+tp17.Visible = true
+tp18.Visible = true
+tp19.Visible = true
+tp20.Visible = true
+tp21.Visible = true
+tp22.Visible = true
+tp23.Visible = true
+tp24.Visible = true
+tp25.Visible = false
+tp26.Visible = false
+tp27.Visible = false
+tp28.Visible = false
+tp29.Visible = false
+tp30.Visible = false
+tp31.Visible = false
+tp32.Visible = false
+tp33.Visible = false
+tp34.Visible = false
+tp35.Visible = false
+tp36.Visible = false
+tp37.Visible = false
+tp38.Visible = false
+tp39.Visible = false
+tp40.Visible = false
+tp41.Visible = false
+tp42.Visible = false
+tp43.Visible = false
+tp44.Visible = false
+tp45.Visible = false
+tp46.Visible = false
+tp47.Visible = false
+tp48.Visible = false
+end)
+
+Next3.MouseButton1Down:connect(function()
+Next3.Visible = false
+previous3.Visible = true
+tp25.Visible = false
+tp26.Visible = false
+tp27.Visible = false
+tp28.Visible = false
+tp29.Visible = false
+tp30.Visible = false
+tp31.Visible = false
+tp32.Visible = false
+tp33.Visible = false
+tp34.Visible = false
+tp35.Visible = false
+tp36.Visible = false
+tp37.Visible = false
+tp38.Visible = false
+tp39.Visible = false
+tp40.Visible = false
+tp41.Visible = false
+tp42.Visible = false
+tp43.Visible = false
+tp44.Visible = false
+tp45.Visible = false
+tp46.Visible = false
+tp47.Visible = false
+tp48.Visible = false
+tp49.Visible = true
+tp50.Visible = true
+end)
+
+previous3.MouseButton1Down:connect(function()
+previous2.Visible = true
+Next3.Visible = true
+previous3.Visible = false
+tp25.Visible = true
+tp26.Visible = true
+tp27.Visible = true
+tp28.Visible = true
+tp29.Visible = true
+tp30.Visible = true
+tp31.Visible = true
+tp32.Visible = true
+tp33.Visible = true
+tp34.Visible = true
+tp35.Visible = true
+tp36.Visible = true
+tp37.Visible = true
+tp38.Visible = true
+tp39.Visible = true
+tp40.Visible = true
+tp41.Visible = true
+tp42.Visible = true
+tp43.Visible = true
+tp44.Visible = true
+tp45.Visible = true
+tp46.Visible = true
+tp47.Visible = true
+tp48.Visible = true
+tp49.Visible = false
+tp50.Visible = false
+end)
+
+Exit.MouseButton1Down:connect(function()
+game:GetService("CoreGui").RnGui:Destroy()
+end)
+
+Exit2.MouseButton1Down:connect(function()
+RnGui.mainframe2.Visible = false
+RnGui.Open2.Visible = false
+end)
+
+Exit3.MouseButton1Down:connect(function()
+RnGui.mainframe3.Visible = false
+RnGui.Open3.Visible = false
+end)
+
+Minimize.MouseButton1Down:connect(function()
+RnGui.mainframe.Visible = false
+RnGui.Open.Visible = true
+end)
+
+Minimize2.MouseButton1Down:connect(function()
+RnGui.mainframe2.Visible = false
+RnGui.Open2.Visible = true
+end)
+
+Minimize3.MouseButton1Down:connect(function()
+RnGui.mainframe3.Visible = false
+RnGui.Open3.Visible = true
+end)
+
+Open.MouseButton1Down:connect(function()
+RnGui.mainframe.Visible = true
+RnGui.Open.Visible = false
+end)
+
+Open2.MouseButton1Down:connect(function()
+RnGui.mainframe2.Visible = true
+RnGui.Open2.Visible = false
+end)
+
+Open3.MouseButton1Down:connect(function()
+RnGui.mainframe3.Visible = true
+RnGui.Open3.Visible = false
+end)
+
+local function T64ST_fake_script() -- mainframe2.LocalScript 
+	local script = Instance.new('LocalScript', mainframe2)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+local function T64ST_fake_script() -- mainframe3.LocalScript 
+	local script = Instance.new('LocalScript', mainframe3)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+TPs.MouseButton1Down:connect(function()
+RnGui.mainframe2.Visible = true
+Open2.Visible = false
+end)
+
+Anti.MouseButton1Down:connect(function()
+while true do
+local player2 = game:GetService("Players"):GetPlayerByUserId(115589472)
+local player = game:GetService("Players"):GetPlayerByUserId(210254732)
+local player3 = game:GetService("Players"):GetPlayerByUserId(63252045)
+local player4 = game:GetService("Players"):GetPlayerByUserId(131514161)
+    if player or player2 or player3 or player4 then
+        game.Players.LocalPlayer:Kick("Anti-Ban:You were kicked for Mod or Owner joined")
+    else
+        wait()
+end
+wait()
+local player2 = game:GetService("Players"):GetPlayerByUserId(38152945)
+local player = game:GetService("Players"):GetPlayerByUserId(940055450)
+local player3 = game:GetService("Players"):GetPlayerByUserId(54136729)
+local player4 = game:GetService("Players"):GetPlayerByUserId(1406712341)
+    if player or player2 or player3 or player4 then
+        game.Players.LocalPlayer:Kick("Anti-Ban:You were kicked for Mod or Owner joined")
+    else
+        wait()
+end
+wait()
+local player2 = game:GetService("Players"):GetPlayerByUserId(451327809)
+local player = game:GetService("Players"):GetPlayerByUserId(65638550)
+local player3 = game:GetService("Players"):GetPlayerByUserId(1145311905)
+local player4 = game:GetService("Players"):GetPlayerByUserId(888493)
+    if player or player2 or player3 or player4 then
+        game.Players.LocalPlayer:Kick("Anti-Ban:You were kicked for Mod or Owner joined")
+    else
+        wait()
+end
+wait()
+local player2 = game:GetService("Players"):GetPlayerByUserId(480078521)
+local player = game:GetService("Players"):GetPlayerByUserId(856083955)
+local player3 = game:GetService("Players"):GetPlayerByUserId(2037829774)
+local player4 = game:GetService("Players"):GetPlayerByUserId(8175249)
+    if player or player2 or player3 or player4 then
+        game.Players.LocalPlayer:Kick("Anti-Ban:You were kicked for Mod or Owner joined")
+    else
+        wait()
+end
+wait()
+end
+end)
+
+Ani.MouseButton1Down:connect(function()
+RnGui.mainframe3.Visible = true
+RnGui.Open3.Visible = false
+end)
+
+Dr.MouseButton1Down:connect(function()
+local Folder = Workspace:WaitForChild("Class-D Cells",math.huge)
+for i,v in pairs(game:GetService("Workspace")["Class-D Cells"]:GetChildren()) do
+if v.Name == "Double Gate" or v.Name == "Gate" or v.Name == "Heavy Door" or v.Name == "Transparent Door" or v.Name == "Second Decontamination Gate" or v.Name == "First Decontamination Gate" then
+v:Destroy()
+end
+end
+for i,v in pairs(game:GetService("Workspace")["Sector 2"].SectionA:GetChildren()) do
+if v.Name == "Double Gate" or v.Name == "Gate" or v.Name == "Heavy Door" or v.Name == "Transparent Door" or v.Name == "Second Decontamination Gate" or v.Name == "First Decontamination Gate" then
+v:Destroy()
+end
+end
+local Folder = game:GetService("Workspace")["Sector 2"]:WaitForChild("SectionB",math.huge)
+for i,v in pairs(game:GetService("Workspace")["Sector 2"].SectionB:GetChildren()) do
+if v.Name == "Gate" or v.Name == "Heavy Door" or v.Name == "Transparent Door" or v.Name == "Second Decontamination Gate" or v.Name == "First Decontamination Gate" then
+v:Destroy()
+end
+end
+local Folder = Workspace:WaitForChild("Sector 1",math.huge)
+for i,v in pairs(game:GetService("Workspace")["Sector 1"]:GetChildren()) do
+if v.Name == "Gate" or v.Name == "Heavy Door" or v.Name == "Linked Door" then
+v:Destroy()
+end
+end
+end)
+
+Dr.MouseButton1Up:connect(function()
+local Folder = Workspace:WaitForChild("Medical Sector",math.huge)
+for i,v in pairs(game:GetService("Workspace")["Medical Sector"]:GetChildren()) do
+if v.Name == "Double Medical Door" or v.Name == "Medical Door" then
+v:Destroy()
+end
+end
+local Folder = Workspace:WaitForChild("Sector 3",math.huge)
+for i,v in pairs(game:GetService("Workspace")["Sector 3"]:GetChildren()) do
+if v.Name == "Gate" or v.Name == "Heavy Door" or v.Name == "Linked Door" or v.Name == "Double Gate" then
+v:Destroy()
+end
+end
+local Folder = Workspace:WaitForChild("Entrance",math.huge)
+for i,v in pairs(game:GetService("Workspace").Entrance:GetChildren()) do
+if v.Name == "Outside Gate 1" or v.Name == "Outside Gate 2" then
+v:Destroy()
+end
+end
+end)
+
+Auto.MouseButton1Down:connect(function()
+while true do
+game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 39
+wait()
+end
+end)
+
+
+	        game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "RncHub";
+            Text = "Script Has Been Loaded";
+            Duration = 10;
+        })
+--    wait(1)
+--	        game:GetService("StarterGui"):SetCore("SendNotification",{
+--            Title = "info";
+--            Text = "Check Dev Console";
+--           Duration = 10;
+--        })
+
+Misc.MouseButton1Down:connect(function()
+RnGui.mainframe4.Visible = true
+RnGui.Open4.Visible = false
+end)
+
+local function T64ST_fake_script() -- mainframe4.LocalScript 
+	local script = Instance.new('LocalScript', mainframe4)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+local function T64ST_fake_script() -- mainframe5.LocalScript 
+	local script = Instance.new('LocalScript', mainframe5)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+Exit4.MouseButton1Down:connect(function()
+RnGui.mainframe4.Visible = false
+RnGui.Open4.Visible = false
+end)
+
+Minimize4.MouseButton1Down:connect(function()
+RnGui.mainframe4.Visible = false
+RnGui.Open4.Visible = true
+end)
+
+Open4.MouseButton1Down:connect(function()
+RnGui.mainframe4.Visible = true
+RnGui.Open4.Visible = false
+end)
+
+Exit5.MouseButton1Down:connect(function()
+RnGui.mainframe5.Visible = false
+RnGui.Open5.Visible = false
+end)
+
+Minimize5.MouseButton1Down:connect(function()
+RnGui.mainframe5.Visible = false
+RnGui.Open5.Visible = true
+end)
+
+Open5.MouseButton1Down:connect(function()
+RnGui.mainframe5.Visible = true
+RnGui.Open5.Visible = false
+end)
+
+Farms.MouseButton1Down:connect(function()
+RnGui.mainframe5.Visible = true
+RnGui.Open5.Visible = false
+end)
+
+AutoF.MouseButton1Down:connect(function()
+--[[
+local button = RnGui.mainframe5.AutoFarm1
+local player = game:GetService('Players')
+local sprinting = false
+
+local function sprint()
+    local player = player.LocalPlayer
+    if sprinting then
+        sprinting = false
+        player.Character.Humanoid.WalkSpeed = 16
+    else
+        sprinting = true
+        player.Character.Humanoid.WalkSpeed = 25 --change this if u want
+    end
+end
+
+button.MouseButton1Click:Connect(sprint)
+]]
+--[[
+local farming = false
+local function farm()
+if farming then
+farming = false
+AutoF.Text = "ItemFarm Credits & Exp (Class-D Only)"
+else
+local player = game:GetService("Players").LocalPlayer.PlayerGui.Utility.Quests.Content:GetChildren()
+farming = true
+AutoF.Text = "Farming........"
+for i,v in pairs(player) do
+if v.Name ~= "D-9341" then
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Scientific Department"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+wait(2)
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Class - D"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+if v.Name == "D-9341" then
+wait(1)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightLowerArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightHand.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightUpperArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightFoot.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightLowerLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.RightUpperLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftFoot.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftLowerLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftUpperLeg.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.UpperTorso.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LowerTorso.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftUpperArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftLowerArm.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.LeftHand.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(185.40795898438, 46.500259399414, -68.167587280273)
+wait(8)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightLowerArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightHand.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightUpperArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightFoot.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightLowerLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.RightUpperLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftFoot.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftLowerLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftUpperLeg.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.UpperTorso.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LowerTorso.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftUpperArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftLowerArm.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.LeftHand.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+game:GetService('Players').LocalPlayer.Character.Head.CFrame = CFrame.new(-25.455169677734, 87.847991943359, 227.64976501465)
+end
+end
+end
+end
+end
+AutoF.MouseButton1Click:Connect(farm)
+]]
+--[
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Scientific Department"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+wait()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Class - D"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+
+end)
+
+N.MouseButton1Down:connect(function()
+game:GetService("CoreGui").PurchasePrompt.Enabled = false
+local nk = game:GetService("Players").LocalPlayer.PlayerGui.Utility.Credits.Credits
+local nk2 = game:GetService("ReplicatedStorage").Nuke.Value == true
+    if nk.Text >= "1500" or nk.Text ~= "1500" then
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Nuke"
+local Event = game:GetService("ReplicatedStorage").Remotes.Jerry
+Event:FireServer(A_1)
+wait()
+--if nk.Text >= "1500" or nk.Text ~= "1500" then
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Nuke";
+    Text = "Nuking....";
+    Icon = "rbxassetid://6860832738";
+    })
+wait()
+if nk2 then
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Success";
+    Text = "Nuking is successfully!";
+    Icon = "rbxassetid://2022095747";
+    })
+end
+wait(0.5)
+if nk.Text ~= "1500" or nk.Text < "1500" or (nk.Text ~= 1500 or nk.Text < 1500) then
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "info";
+    Text = "You Need At Latest 1500 Credits for Nuke";
+    Icon = "rbxassetid://5554290704";
+    Duration = 7;
+    })
+end
+end
+end)
+
+N.MouseButton1Up:connect(function()
+local nk3 = game:GetService("ReplicatedStorage").Nuke.Value == false
+if nk3 then
+wait()
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Fail";
+    Text = "Nuke Failed!";
+    Icon = "rbxassetid://5078993076";
+    })
+end
+end)
+
+Mis.MouseButton1Down:connect(function()
+while true do
+local Health = game:GetService("Players").LocalPlayer.Character.Humanoid.Health
+    if Health < 25 then
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(243.41534423828, 23.848049163818, 505.16445922852)
+    wait()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75.870750427246, 40.482482910156, 465.45935058594)
+    wait()
+    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(192.72389221191, 40.347995758057, 196.47959899902)
+end
+wait()
+end
+end)
+
+Random.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/BigHeadV2/main/BigHeadV2-r15", true))()
+end)
+
+Hide.MouseButton1Down:connect(function()
+while true do
+local Player = game:GetService("Players").LocalPlayer.Character:WaitForChild("Head")
+local Player2 = game:GetService("Players").LocalPlayer.Character.Head:WaitForChild("Tag")
+for i,v in pairs(Player2:GetChildren()) do
+if v.Name == "User" then
+v:Destroy()
+end
+end
+wait()
+end
+end)
+--[[
+Hide.MouseButton1Up:connect(function()
+while true do
+local Player = game:GetService("Players").LocalPlayer.Character.Head:WaitForChild("Tag")
+for i,v in pairs(Player:GetChildren()) do
+if v.Name == "User" then
+v:Destroy()
+end
+end
+Player:WaitForChild("User")
+wait(1.5)
+end
+end)
+]]
+Mis2.MouseButton1Down:connect(function()
+local Folder = Workspace:WaitForChild("Sector 3")
+for i,v in pairs(game:GetService("Workspace")["Sector 3"]:GetChildren()) do
+if v.Name == "096 box" then
+v:Destroy()
+end
+end
+local Folder = game:GetService("Workspace")["Sector 2"]:WaitForChild("SectionA")
+for i,v in pairs(game:GetService("Workspace")["Sector 2"].SectionA:GetChildren()) do
+if v.Name == "Nuke Door" or v.Name == "Blast Gate" or v.Name == "MaintenanceC4" or v.Name == "BeforeExplosionWall" then
+v:Destroy()
+end
+end
+local Folder = Workspace:WaitForChild("Chaos Insurgency")
+for i,v in pairs(game:GetService("Workspace")["Chaos Insurgency"]:GetChildren()) do
+if v.Name == "VentC4" or v.Name == "ExplosionVent" then
+v:Destroy()
+end
+end
+end)
+
+Mis3.MouseButton1Down:connect(function()
+--game:GetService("Players").LocalPlayer.Character.Humanoid:TakeDamage(99)
+while true do
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = 50
+wait()
+end
+end)
+
+Auto2.MouseButton1Down:connect(function()
+--print(game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower)
+while true do
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = 55
+wait()
+end
+end)
+
+Mis4.MouseButton1Down:connect(function()
+
+--game:GetService("Players").LocalPlayer.Character:BreakJoints()
+--game:GetService("Workspace").LocalPlayer.Head.face:Destroy()
+--game:GetService("Players").LocalPlayer.Character.Humanoid.BreakJointsOnDeath = false
+end)
+
+Random4.MouseButton1Down:connect(function()
+local UserInputService = game:GetService("UserInputService")
+
+function onJumpRequest()
+    game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+end
+
+UserInputService.JumpRequest:Connect(onJumpRequest)
+end)
+
+Anti2.MouseButton1Down:connect(function()
+local pl = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass'Accessory'
+local pl2 = 0
+local pl3 = pl.Handle.AccessoryWeld
+if pl or pl3 then
+pl2 = pl2 + 1
+pl3:Destroy()
+end
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Anti-Proof";
+    Text = "An Anti-Ban idea To make Your identity Hidden from People who trying Report You To The Game's Discord community!";
+    Icon = "rbxassetid://7942513463";
+    Duration = 15;
+    })
+end)
+
+Anti2.MouseButton1Up:connect(function()
+local pl2 = 0
+local pl4 = game:GetService("Players").LocalPlayer.Character.Head.face
+if pl4 then
+pl2 = pl2 + 1
+pl4:Destroy()
+end
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Anti-Proof";
+    Text = "An Anti-Ban idea To make Your identity Hidden from People who trying Report You To The Game's Discord community!";
+    Icon = "rbxassetid://7942513463";
+    Duration = 15;
+    })
+end)
+
+Shop.MouseButton1Down:connect(function()
+RnGui.mainframe6.Visible = true
+RnGui.Open6.Visible = false
+end)
+
+Teams.MouseButton1Down:connect(function()
+RnGui.mainframe7.Visible = true
+RnGui.Open7.Visible = false
+end)
+
+Minimize6.MouseButton1Down:connect(function()
+RnGui.mainframe6.Visible = false
+RnGui.Open6.Visible = true
+end)
+
+Minimize7.MouseButton1Down:connect(function()
+RnGui.mainframe7.Visible = false
+RnGui.Open7.Visible = true
+end)
+
+Exit6.MouseButton1Down:connect(function()
+RnGui.mainframe6.Visible = false
+RnGui.Open6.Visible = false
+end)
+
+Exit7.MouseButton1Down:connect(function()
+RnGui.mainframe7.Visible = false
+RnGui.Open7.Visible = false
+end)
+
+local function T64ST_fake_script() -- mainframe6.LocalScript 
+	local script = Instance.new('LocalScript', mainframe6)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+local function T64ST_fake_script() -- mainframe7.LocalScript 
+	local script = Instance.new('LocalScript', mainframe7)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+Open6.MouseButton1Down:connect(function()
+RnGui.mainframe6.Visible = true
+RnGui.Open6.Visible = false
+end)
+
+Open7.MouseButton1Down:connect(function()
+RnGui.mainframe7.Visible = true
+RnGui.Open7.Visible = false
+end)
+
+Random2.MouseButton1Down:connect(function()
+--Shit ass script made by failedmite57926
+
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+local function rm()
+	for i,v in pairs(Character:GetDescendants()) do
+		if v:IsA("BasePart") then
+			if v.Name ~= "Head" then
+				for i,cav in pairs(v:GetDescendants()) do
+					if cav:IsA("Attachment") then
+						if cav:FindFirstChild("OriginalPosition") then
+							cav.OriginalPosition:Destroy()
+						end
+					end
+				end
+				v:FindFirstChild("OriginalSize"):Destroy()
+				if v:FindFirstChild("AvatarPartScaleType") then
+					v:FindFirstChild("AvatarPartScaleType"):Destroy()
+				end
+			end
+		end
+	end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/BigHeadV2/main/BigHeadV2-r15", true))()
+end)
+
+Random3.MouseButton1Down:connect(function()
+--Shit ass script made by failedmite57926
+
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+local function rm()
+	for i,v in pairs(Character:GetDescendants()) do
+		if v:IsA("BasePart") then
+			if v.Name ~= "Head" then
+				for i,cav in pairs(v:GetDescendants()) do
+					if cav:IsA("Attachment") then
+						if cav:FindFirstChild("OriginalPosition") then
+							cav.OriginalPosition:Destroy()
+						end
+					end
+				end
+				v:FindFirstChild("OriginalSize"):Destroy()
+				if v:FindFirstChild("AvatarPartScaleType") then
+					v:FindFirstChild("AvatarPartScaleType"):Destroy()
+				end
+			end
+		end
+	end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+end)
+
+Random5.MouseButton1Down:connect(function()
+--LEFT Alt, not Right
+_G.key = Enum.KeyCode.LeftAlt
+ 
+loadstring(game:HttpGet("https://paste.gg/p/anonymous/cb1c7198b269449eb8a2cf8ced061bed/files/4a98e88f82ee47388b3030a7f000b34e/raw", true))()
+ 
+setting = settings().Network
+local Effect = Instance.new("ColorCorrectionEffect")
+Effect.Parent = game.Lighting
+Effect.Saturation = -1 
+Effect.Contrast = 0
+toggle = false
+ 
+Effect.Enabled = false
+function onKeyPress(inputObject, gameProcessedEvent)
+	if inputObject.KeyCode == Enum.KeyCode.LeftAlt then	
+		if toggle == false then
+			setting.IncomingReplicationLag = 1000
+			Effect.Enabled = true
+			toggle = true
+		else
+			setting.IncomingReplicationLag = 0
+			Effect.Enabled = false
+			toggle = false
+		end
+ 
+	end
+end
+ 
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+end)
+
+Exit8.MouseButton1Down:connect(function()
+RnGui.mainframe8.Visible = false
+end)
+
+local function T64ST_fake_script() -- mainframe8.LocalScript 
+	local script = Instance.new('LocalScript', mainframe8)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+Team4.MouseButton1Down:connect(function()
+RnGui.mainframe8.Visible = true
+end)
+
+Team1.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Class - D"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+end)
+
+Team2.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Scientific Department"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+end)
+
+Team3.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Security Department"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+end)
+
+Team5.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Intelligence Agency"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+end)
+
+Team6.MouseButton1Down:connect(function()
+
+end)
+
+Team7.MouseButton1Down:connect(function()
+
+end)
+
+Team8.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Chaos Insurgency"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+end)
+
+Team9.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Medical Department"
+local A_2 = false
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3)
+end)
+
+Team10.MouseButton1Down:connect(function()
+
+end)
+
+Team11.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Mobile Task Force"
+local A_2 = false
+local A_3 = false
+local A_4 = "Nu-7"
+local Event = game:GetService("ReplicatedStorage").Remotes.Spawn
+Event:InvokeServer(A_1, A_2, A_3, A_4)
+end)
+
+Team12.MouseButton1Down:connect(function()
+
+end)
+
+Team13.MouseButton1Down:connect(function()
+
+end)
+
+Team14.MouseButton1Down:connect(function()
+
+end)
+
+item1.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Vest"
+local Event = game:GetService("ReplicatedStorage").Remotes.Jerry
+Event:FireServer(A_1)
+end)
+
+item2.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Glock 17"
+local Event = game:GetService("ReplicatedStorage").Remotes.Jerry
+Event:FireServer(A_1)
+end)
+
+item3.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Scar - H"
+local Event = game:GetService("ReplicatedStorage").Remotes.Jerry
+Event:FireServer(A_1)
+end)
+
+item4.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Kriss Vector"
+local Event = game:GetService("ReplicatedStorage").Remotes.Jerry
+Event:FireServer(A_1)
+end)
+
+item5.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Spas - 12"
+local Event = game:GetService("ReplicatedStorage").Remotes.Jerry
+Event:FireServer(A_1)
+end)
+
+item6.MouseButton1Down:connect(function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "Nuke"
+local Event = game:GetService("ReplicatedStorage").Remotes.Jerry
+Event:FireServer(A_1)
+end)
+
+Random6.MouseButton1Down:connect(function()
+local GUITHING = Instance.new("ScreenGui")
+local makeinvisble = Instance.new("Frame")
+local r15gui = Instance.new("Frame")
+local rainbow1 = Instance.new("Frame")
+local rainbow2 = Instance.new("Frame")
+local title1 = Instance.new("TextLabel")
+local blockhead = Instance.new("TextButton")
+local creeperR15 = Instance.new("TextButton")
+local removewaist = Instance.new("TextButton")
+local drophats = Instance.new("TextButton")
+local blockhats = Instance.new("TextButton")
+local shattervest = Instance.new("TextButton")
+local animationgui = Instance.new("TextButton")
+local invisble = Instance.new("TextButton")
+local r6gui = Instance.new("Frame")
+local rainbow3 = Instance.new("Frame")
+local rainbow4 = Instance.new("Frame")
+local title2 = Instance.new("TextLabel")
+local creeperR6 = Instance.new("TextButton")
+local blockhead1 = Instance.new("TextButton")
+local drophats1 = Instance.new("TextButton")
+local blockhats1 = Instance.new("TextButton")
+local animationgui1 = Instance.new("TextButton")
+local shattervest1 = Instance.new("TextButton")
+local gabx = Instance.new("TextButton")
+local toolsgui = Instance.new("Frame")
+local rainbow5 = Instance.new("Frame")
+local rainbow6 = Instance.new("Frame")
+local title3 = Instance.new("TextLabel")
+local savetools = Instance.new("TextButton")
+local loadtools = Instance.new("TextButton")
+local othersgui = Instance.new("Frame")
+local rainbow8 = Instance.new("Frame")
+local rainbow7 = Instance.new("Frame")
+local title4 = Instance.new("TextLabel")
+local fathomhub = Instance.new("TextButton")
+local legacyhub = Instance.new("TextButton")
+local vehiclegui = Instance.new("TextButton")
+local aimbotctrl = Instance.new("TextButton")
+local aimboth = Instance.new("TextButton")
+local antiafk = Instance.new("TextButton")
+local phonegui = Instance.new("TextButton")
+local survivorgui = Instance.new("TextButton")
+--Properties:
+GUITHING.Name = "GUITHING"
+GUITHING.Parent = game.CoreGui
+
+makeinvisble.Name = "makeinvisble :)"
+makeinvisble.Parent = GUITHING
+makeinvisble.BackgroundColor3 = Color3.new(1, 1, 1)
+makeinvisble.BackgroundTransparency = 0.60000002384186
+makeinvisble.Size = UDim2.new(0, 1133, 0, 514)
+makeinvisble.Visible = false
+
+r15gui.Name = "r15gui"
+r15gui.Parent = makeinvisble
+r15gui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+r15gui.BorderSizePixel = 0
+r15gui.Position = UDim2.new(0.0260384381, 0, 0.0297973789, 0)
+r15gui.Size = UDim2.new(0, 223, 0, 25)
+
+rainbow1.Name = "rainbow1"
+rainbow1.Parent = r15gui
+rainbow1.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow1.BorderColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+rainbow1.BorderSizePixel = 5
+rainbow1.Position = UDim2.new(0.0401113182, 0, 0.981453836, 0)
+rainbow1.Size = UDim2.new(0, 203, 0, 379)
+
+rainbow2.Name = "rainbow2"
+rainbow2.Parent = r15gui
+rainbow2.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow2.BorderSizePixel = 0
+rainbow2.Position = UDim2.new(-0.000247425021, 0, -0.258545846, 0)
+rainbow2.Size = UDim2.new(0, 223, 0, 6)
+
+title1.Name = "title1"
+title1.Parent = r15gui
+title1.BackgroundColor3 = Color3.new(1, 1, 1)
+title1.BackgroundTransparency = 1
+title1.Position = UDim2.new(0.0538116582, 0, 0, 0)
+title1.Size = UDim2.new(0, 200, 0, 24)
+title1.Font = Enum.Font.SourceSansLight
+title1.Text = "R15 Scripts"
+title1.TextColor3 = Color3.new(1, 1, 1)
+title1.TextScaled = true
+title1.TextSize = 14
+title1.TextWrapped = true
+
+blockhead.Name = "blockhead"
+blockhead.Parent = r15gui
+blockhead.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+blockhead.BorderSizePixel = 0
+blockhead.Position = UDim2.new(0.107623316, 0, 1.60000002, 0)
+blockhead.Size = UDim2.new(0, 172, 0, 27)
+blockhead.Font = Enum.Font.SourceSansLight
+blockhead.Text = "Blockhead"
+blockhead.TextColor3 = Color3.new(1, 1, 1)
+blockhead.TextScaled = true
+blockhead.TextSize = 14
+blockhead.TextWrapped = true
+
+creeperR15.Name = "creeperR15"
+creeperR15.Parent = r15gui
+creeperR15.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+creeperR15.BorderSizePixel = 0
+creeperR15.Position = UDim2.new(0.11210762, 0, 3.51999998, 0)
+creeperR15.Size = UDim2.new(0, 172, 0, 27)
+creeperR15.Font = Enum.Font.SourceSansLight
+creeperR15.Text = "Creepa.. Aw Man"
+creeperR15.TextColor3 = Color3.new(1, 1, 1)
+creeperR15.TextScaled = true
+creeperR15.TextSize = 14
+creeperR15.TextWrapped = true
+
+removewaist.Name = "removewaist"
+removewaist.Parent = r15gui
+removewaist.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+removewaist.BorderSizePixel = 0
+removewaist.Position = UDim2.new(0.107623316, 0, 5.31999969, 0)
+removewaist.Size = UDim2.new(0, 172, 0, 27)
+removewaist.Font = Enum.Font.SourceSansLight
+removewaist.Text = "Remove Waist"
+removewaist.TextColor3 = Color3.new(1, 1, 1)
+removewaist.TextScaled = true
+removewaist.TextSize = 14
+removewaist.TextWrapped = true
+
+drophats.Name = "drophats"
+drophats.Parent = r15gui
+drophats.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+drophats.BorderSizePixel = 0
+drophats.Position = UDim2.new(0.107623316, 0, 7.19999981, 0)
+drophats.Size = UDim2.new(0, 172, 0, 27)
+drophats.Font = Enum.Font.SourceSansLight
+drophats.Text = "Drop Hats"
+drophats.TextColor3 = Color3.new(1, 1, 1)
+drophats.TextScaled = true
+drophats.TextSize = 14
+drophats.TextWrapped = true
+
+blockhats.Name = "blockhats"
+blockhats.Parent = r15gui
+blockhats.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+blockhats.BorderSizePixel = 0
+blockhats.Position = UDim2.new(0.107623316, 0, 9.11999989, 0)
+blockhats.Size = UDim2.new(0, 172, 0, 27)
+blockhats.Font = Enum.Font.SourceSansLight
+blockhats.Text = "Block Hats"
+blockhats.TextColor3 = Color3.new(1, 1, 1)
+blockhats.TextScaled = true
+blockhats.TextSize = 14
+blockhats.TextWrapped = true
+
+shattervest.Name = "shattervest"
+shattervest.Parent = r15gui
+shattervest.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+shattervest.BorderSizePixel = 0
+shattervest.Position = UDim2.new(0.107623316, 0, 11.0799999, 0)
+shattervest.Size = UDim2.new(0, 172, 0, 27)
+shattervest.Font = Enum.Font.SourceSansLight
+shattervest.Text = "Shattervest Admin"
+shattervest.TextColor3 = Color3.new(1, 1, 1)
+shattervest.TextSize = 25
+shattervest.TextWrapped = true
+
+animationgui.Name = "animationgui"
+animationgui.Parent = r15gui
+animationgui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+animationgui.BorderSizePixel = 0
+animationgui.Position = UDim2.new(0.107623316, 0, 12.8400002, 0)
+animationgui.Size = UDim2.new(0, 172, 0, 27)
+animationgui.Font = Enum.Font.SourceSansLight
+animationgui.Text = "Animation GUI"
+animationgui.TextColor3 = Color3.new(1, 1, 1)
+animationgui.TextSize = 25
+animationgui.TextWrapped = true
+
+invisble.Name = "invisble"
+invisble.Parent = r15gui
+invisble.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+invisble.BorderSizePixel = 0
+invisble.Position = UDim2.new(0.107623316, 0, 14.5200005, 0)
+invisble.Size = UDim2.new(0, 172, 0, 27)
+invisble.Font = Enum.Font.SourceSansLight
+invisble.Text = "Complete Invisble"
+invisble.TextColor3 = Color3.new(1, 1, 1)
+invisble.TextSize = 25
+invisble.TextWrapped = true
+
+r6gui.Name = "r6gui"
+r6gui.Parent = makeinvisble
+r6gui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+r6gui.BorderSizePixel = 0
+r6gui.Position = UDim2.new(0.235393807, 0, 0.0297973789, 0)
+r6gui.Size = UDim2.new(0, 223, 0, 25)
+
+rainbow3.Name = "rainbow3"
+rainbow3.Parent = r6gui
+rainbow3.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow3.BorderColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+rainbow3.BorderSizePixel = 5
+rainbow3.Position = UDim2.new(0.0445956253, 0, 0.981453836, 0)
+rainbow3.Size = UDim2.new(0, 203, 0, 339)
+
+rainbow4.Name = "rainbow4"
+rainbow4.Parent = r6gui
+rainbow4.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow4.BorderSizePixel = 0
+rainbow4.Position = UDim2.new(-0.000247425021, 0, -0.258545846, 0)
+rainbow4.Size = UDim2.new(0, 223, 0, 6)
+
+title2.Name = "title2"
+title2.Parent = r6gui
+title2.BackgroundColor3 = Color3.new(1, 1, 1)
+title2.BackgroundTransparency = 1
+title2.Position = UDim2.new(0.0538116582, 0, 0.0399999991, 0)
+title2.Size = UDim2.new(0, 200, 0, 24)
+title2.Font = Enum.Font.SourceSansLight
+title2.Text = "R6 Scripts"
+title2.TextColor3 = Color3.new(1, 1, 1)
+title2.TextScaled = true
+title2.TextSize = 14
+title2.TextWrapped = true
+
+creeperR6.Name = "creeperR6"
+creeperR6.Parent = r6gui
+creeperR6.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+creeperR6.BorderSizePixel = 0
+creeperR6.Position = UDim2.new(0.11659193, 0, 1.60000002, 0)
+creeperR6.Size = UDim2.new(0, 172, 0, 27)
+creeperR6.Font = Enum.Font.SourceSansLight
+creeperR6.Text = "Creepa.. Aw Man"
+creeperR6.TextColor3 = Color3.new(1, 1, 1)
+creeperR6.TextScaled = true
+creeperR6.TextSize = 14
+creeperR6.TextWrapped = true
+
+blockhead1.Name = "blockhead1"
+blockhead1.Parent = r6gui
+blockhead1.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+blockhead1.BorderSizePixel = 0
+blockhead1.Position = UDim2.new(0.11659193, 0, 3.51999998, 0)
+blockhead1.Size = UDim2.new(0, 172, 0, 27)
+blockhead1.Font = Enum.Font.SourceSansLight
+blockhead1.Text = "Blockhead"
+blockhead1.TextColor3 = Color3.new(1, 1, 1)
+blockhead1.TextScaled = true
+blockhead1.TextSize = 14
+blockhead1.TextWrapped = true
+
+drophats1.Name = "drophats1"
+drophats1.Parent = r6gui
+drophats1.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+drophats1.BorderSizePixel = 0
+drophats1.Position = UDim2.new(0.112107627, 0, 5.32000017, 0)
+drophats1.Size = UDim2.new(0, 172, 0, 27)
+drophats1.Font = Enum.Font.SourceSansLight
+drophats1.Text = "Drop Hats"
+drophats1.TextColor3 = Color3.new(1, 1, 1)
+drophats1.TextScaled = true
+drophats1.TextSize = 14
+drophats1.TextWrapped = true
+
+blockhats1.Name = "blockhats1"
+blockhats1.Parent = r6gui
+blockhats1.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+blockhats1.BorderSizePixel = 0
+blockhats1.Position = UDim2.new(0.112107627, 0, 7.20000029, 0)
+blockhats1.Size = UDim2.new(0, 172, 0, 27)
+blockhats1.Font = Enum.Font.SourceSansLight
+blockhats1.Text = "Block Hats"
+blockhats1.TextColor3 = Color3.new(1, 1, 1)
+blockhats1.TextScaled = true
+blockhats1.TextSize = 14
+blockhats1.TextWrapped = true
+
+animationgui1.Name = "animationgui1"
+animationgui1.Parent = r6gui
+animationgui1.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+animationgui1.BorderSizePixel = 0
+animationgui1.Position = UDim2.new(0.112107627, 0, 9.11999989, 0)
+animationgui1.Size = UDim2.new(0, 172, 0, 27)
+animationgui1.Font = Enum.Font.SourceSansLight
+animationgui1.Text = "Animation GUI"
+animationgui1.TextColor3 = Color3.new(1, 1, 1)
+animationgui1.TextScaled = true
+animationgui1.TextSize = 14
+animationgui1.TextWrapped = true
+
+shattervest1.Name = "shattervest1"
+shattervest1.Parent = r6gui
+shattervest1.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+shattervest1.BorderSizePixel = 0
+shattervest1.Position = UDim2.new(0.112107627, 0, 11.0799999, 0)
+shattervest1.Size = UDim2.new(0, 172, 0, 27)
+shattervest1.Font = Enum.Font.SourceSansLight
+shattervest1.Text = "Shattervest"
+shattervest1.TextColor3 = Color3.new(1, 1, 1)
+shattervest1.TextScaled = true
+shattervest1.TextSize = 14
+shattervest1.TextWrapped = true
+
+gabx.Name = "gabx"
+gabx.Parent = r6gui
+gabx.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+gabx.BorderSizePixel = 0
+gabx.Position = UDim2.new(0.112107627, 0, 12.8400002, 0)
+gabx.Size = UDim2.new(0, 172, 0, 27)
+gabx.Font = Enum.Font.SourceSansLight
+gabx.Text = "OP FLING GUI"
+gabx.TextColor3 = Color3.new(1, 1, 1)
+gabx.TextScaled = true
+gabx.TextSize = 14
+gabx.TextWrapped = true
+
+toolsgui.Name = "toolsgui"
+toolsgui.Parent = makeinvisble
+toolsgui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+toolsgui.BorderSizePixel = 0
+toolsgui.Position = UDim2.new(0.445295811, 0, 0.0305510089, 0)
+toolsgui.Size = UDim2.new(0, 223, 0, 25)
+
+rainbow5.Name = "rainbow5"
+rainbow5.Parent = toolsgui
+rainbow5.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow5.BorderColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+rainbow5.BorderSizePixel = 5
+rainbow5.Position = UDim2.new(0.0401113182, 0, 0.981453836, 0)
+rainbow5.Size = UDim2.new(0, 203, 0, 109)
+
+rainbow6.Name = "rainbow6"
+rainbow6.Parent = toolsgui
+rainbow6.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow6.BorderSizePixel = 0
+rainbow6.Position = UDim2.new(-0.000247425021, 0, -0.258545846, 0)
+rainbow6.Size = UDim2.new(0, 223, 0, 6)
+
+title3.Name = "title3"
+title3.Parent = toolsgui
+title3.BackgroundColor3 = Color3.new(1, 1, 1)
+title3.BackgroundTransparency = 1
+title3.Position = UDim2.new(0.0538116582, 0, 0, 0)
+title3.Size = UDim2.new(0, 200, 0, 24)
+title3.Font = Enum.Font.SourceSansLight
+title3.Text = "Save/Load Tools"
+title3.TextColor3 = Color3.new(1, 1, 1)
+title3.TextScaled = true
+title3.TextSize = 14
+title3.TextWrapped = true
+
+savetools.Name = "savetools"
+savetools.Parent = toolsgui
+savetools.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+savetools.BorderSizePixel = 0
+savetools.Position = UDim2.new(0.107623316, 0, 1.63999987, 0)
+savetools.Size = UDim2.new(0, 172, 0, 27)
+savetools.Font = Enum.Font.SourceSansLight
+savetools.Text = "Save Tools"
+savetools.TextColor3 = Color3.new(1, 1, 1)
+savetools.TextScaled = true
+savetools.TextSize = 14
+savetools.TextWrapped = true
+
+loadtools.Name = "loadtools"
+loadtools.Parent = toolsgui
+loadtools.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+loadtools.BorderSizePixel = 0
+loadtools.Position = UDim2.new(0.107623316, 0, 3.55999994, 0)
+loadtools.Size = UDim2.new(0, 172, 0, 27)
+loadtools.Font = Enum.Font.SourceSansLight
+loadtools.Text = "Load Tools"
+loadtools.TextColor3 = Color3.new(1, 1, 1)
+loadtools.TextScaled = true
+loadtools.TextSize = 14
+loadtools.TextWrapped = true
+
+othersgui.Name = "othersgui"
+othersgui.Parent = makeinvisble
+othersgui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+othersgui.BorderSizePixel = 0
+othersgui.Position = UDim2.new(0.657109678, 0, 0.027413588, 0)
+othersgui.Size = UDim2.new(0, 223, 0, 25)
+
+rainbow8.Name = "rainbow8"
+rainbow8.Parent = othersgui
+rainbow8.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow8.BorderColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+rainbow8.BorderSizePixel = 5
+rainbow8.Position = UDim2.new(0.0401113182, 0, 0.981453836, 0)
+rainbow8.Size = UDim2.new(0, 203, 0, 381)
+
+rainbow7.Name = "rainbow7"
+rainbow7.Parent = othersgui
+rainbow7.BackgroundColor3 = Color3.new(1, 1, 1)
+rainbow7.BorderSizePixel = 0
+rainbow7.Position = UDim2.new(-0.000247425021, 0, -0.258545846, 0)
+rainbow7.Size = UDim2.new(0, 223, 0, 6)
+
+title4.Name = "title4"
+title4.Parent = othersgui
+title4.BackgroundColor3 = Color3.new(1, 1, 1)
+title4.BackgroundTransparency = 1
+title4.Position = UDim2.new(0.0538116582, 0, 0, 0)
+title4.Size = UDim2.new(0, 200, 0, 24)
+title4.Font = Enum.Font.SourceSansLight
+title4.Text = "Other Script/GUI's"
+title4.TextColor3 = Color3.new(1, 1, 1)
+title4.TextScaled = true
+title4.TextSize = 14
+title4.TextWrapped = true
+
+fathomhub.Name = "fathomhub"
+fathomhub.Parent = othersgui
+fathomhub.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+fathomhub.BorderSizePixel = 0
+fathomhub.Position = UDim2.new(0.107623316, 0, 1.63999987, 0)
+fathomhub.Size = UDim2.new(0, 172, 0, 27)
+fathomhub.Font = Enum.Font.SourceSansLight
+fathomhub.Text = "Fathom HUB"
+fathomhub.TextColor3 = Color3.new(1, 1, 1)
+fathomhub.TextScaled = true
+fathomhub.TextSize = 14
+fathomhub.TextWrapped = true
+
+legacyhub.Name = "legacyhub"
+legacyhub.Parent = othersgui
+legacyhub.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+legacyhub.BorderSizePixel = 0
+legacyhub.Position = UDim2.new(0.107623316, 0, 3.55999994, 0)
+legacyhub.Size = UDim2.new(0, 172, 0, 27)
+legacyhub.Font = Enum.Font.SourceSansLight
+legacyhub.Text = "Legacy HUB"
+legacyhub.TextColor3 = Color3.new(1, 1, 1)
+legacyhub.TextScaled = true
+legacyhub.TextSize = 14
+legacyhub.TextWrapped = true
+
+vehiclegui.Name = "vehiclegui"
+vehiclegui.Parent = othersgui
+vehiclegui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+vehiclegui.BorderSizePixel = 0
+vehiclegui.Position = UDim2.new(0.11659193, 0, 5.35999966, 0)
+vehiclegui.Size = UDim2.new(0, 172, 0, 27)
+vehiclegui.Font = Enum.Font.SourceSansLight
+vehiclegui.Text = "Vehicle Simulator"
+vehiclegui.TextColor3 = Color3.new(1, 1, 1)
+vehiclegui.TextScaled = true
+vehiclegui.TextSize = 14
+vehiclegui.TextWrapped = true
+
+aimbotctrl.Name = "aimbotctrl"
+aimbotctrl.Parent = othersgui
+aimbotctrl.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+aimbotctrl.BorderSizePixel = 0
+aimbotctrl.Position = UDim2.new(0.107623324, 0, 7.27999973, 0)
+aimbotctrl.Size = UDim2.new(0, 172, 0, 27)
+aimbotctrl.Font = Enum.Font.SourceSansLight
+aimbotctrl.Text = "Aimbot And ESP (CTRL)"
+aimbotctrl.TextColor3 = Color3.new(1, 1, 1)
+aimbotctrl.TextScaled = true
+aimbotctrl.TextSize = 14
+aimbotctrl.TextWrapped = true
+
+aimboth.Name = "aimboth"
+aimboth.Parent = othersgui
+aimboth.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+aimboth.BorderSizePixel = 0
+aimboth.Position = UDim2.new(0.107623324, 0, 9.19999981, 0)
+aimboth.Size = UDim2.new(0, 172, 0, 27)
+aimboth.Font = Enum.Font.SourceSansLight
+aimboth.Text = "Aimbot And ESP (H)"
+aimboth.TextColor3 = Color3.new(1, 1, 1)
+aimboth.TextScaled = true
+aimboth.TextSize = 14
+aimboth.TextWrapped = true
+
+antiafk.Name = "antiafk"
+antiafk.Parent = othersgui
+antiafk.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+antiafk.BorderSizePixel = 0
+antiafk.Position = UDim2.new(0.107623324, 0, 11.1599998, 0)
+antiafk.Size = UDim2.new(0, 172, 0, 27)
+antiafk.Font = Enum.Font.SourceSansLight
+antiafk.Text = "Anti AFK"
+antiafk.TextColor3 = Color3.new(1, 1, 1)
+antiafk.TextScaled = true
+antiafk.TextSize = 14
+antiafk.TextWrapped = true
+
+phonegui.Name = "phonegui"
+phonegui.Parent = othersgui
+phonegui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+phonegui.BorderSizePixel = 0
+phonegui.Position = UDim2.new(0.112107627, 0, 12.9200001, 0)
+phonegui.Size = UDim2.new(0, 172, 0, 27)
+phonegui.Font = Enum.Font.SourceSansLight
+phonegui.Text = "Phone GUI"
+phonegui.TextColor3 = Color3.new(1, 1, 1)
+phonegui.TextScaled = true
+phonegui.TextSize = 14
+phonegui.TextWrapped = true
+
+survivorgui.Name = "survivorgui"
+survivorgui.Parent = othersgui
+survivorgui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+survivorgui.BorderSizePixel = 0
+survivorgui.Position = UDim2.new(0.107623324, 0, 14.6000004, 0)
+survivorgui.Size = UDim2.new(0, 172, 0, 27)
+survivorgui.Font = Enum.Font.SourceSansLight
+survivorgui.Text = "Survivor GUI"
+survivorgui.TextColor3 = Color3.new(1, 1, 1)
+survivorgui.TextScaled = true
+survivorgui.TextSize = 14
+survivorgui.TextWrapped = true
+
+-- Scripts:
+
+
+print("did not even past first test :)")
+
+aimbotctrl.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/2kbyfrn5", true))()
+end)
+
+aimboth.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xB92ES44", true))()
+end)
+
+antiafk.MouseButton1Click:connect(function()
+	local VirtualUser=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+VirtualUser:CaptureController()
+VirtualUser:ClickButton2(Vector2.new())
+end)
+end)
+
+fathomhub.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+end)
+
+legacyhub.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://1683559539")[1].Source)()
+end)
+
+phonegui.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/nScPDiay", true))()
+end)
+
+survivorgui.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/1ZyLGHZu", true))()
+end)
+
+vehiclegui.MouseButton1Click:connect(function()
+	 loadstring(game:HttpGet(("https://pastebin.com/raw/nFjsc1LT"),true))()
+end)
+
+animationgui.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uUR6pFVv", true))()
+end)
+
+animationgui1.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uUR6pFVv", true))()
+end)
+
+blockhats.MouseButton1Click:connect(function()
+	for _,v in pairs(game.Players.LocalPlayer:GetChildren()) do
+if (v:IsA("Tool")) then
+v.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+end)
+
+blockhats1.MouseButton1Click:connect(function()
+	for _,v in pairs(game.Players.LocalPlayer:GetChildren()) do
+if (v:IsA("Tool")) then
+v.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+end)
+
+blockhead.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.Head.Mesh:destroy()
+end)
+
+blockhead1.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.Head.Mesh:destroy()
+end)
+
+creeperR15.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.Head.Mesh:destroy()
+function doo(limb, pos)
+limb:BreakJoints()
+local velocity = Instance.new("RocketPropulsion", limb)
+velocity.CartoonFactor = 0
+velocity.MaxSpeed = 30
+velocity.MaxThrust = 9999
+velocity.MaxTorque = Vector3.new(math.huge,math.huge,math.huge)
+velocity.Target = game.Players.LocalPlayer.Character.UpperTorso
+velocity.TargetOffset = pos
+velocity:fire()
+local b = Instance.new("BodyGyro", limb)
+end
+while wait() do
+doo(game.Players.LocalPlayer.Character["LeftUpperArm"], Vector3.new(-0.5,-2,-1))
+doo(game.Players.LocalPlayer.Character["RightUpperArm"], Vector3.new(0.5,-2,-1))
+doo(game.Players.LocalPlayer.Character["LeftUpperLeg"], Vector3.new(-0.5,-2,1))
+doo(game.Players.LocalPlayer.Character["RightUpperLeg"], Vector3.new(0.5,-2,1))
+end
+end)
+
+creeperR6.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.Head.Mesh:destroy()
+function doo(limb, pos)
+limb:BreakJoints()
+local velocity = Instance.new("RocketPropulsion", limb)
+velocity.CartoonFactor = 0
+velocity.MaxSpeed = 30
+velocity.MaxThrust = 9999
+velocity.MaxTorque = Vector3.new(math.huge,math.huge,math.huge)
+velocity.Target = game.Players.LocalPlayer.Character.Torso
+velocity.TargetOffset = pos
+velocity:fire()
+local b = Instance.new("BodyGyro", limb)
+end
+while wait() do
+doo(game.Players.LocalPlayer.Character["Left Arm"], Vector3.new(-0.5,-2,-1))
+doo(game.Players.LocalPlayer.Character["Right Arm"], Vector3.new(0.5,-2,-1))
+doo(game.Players.LocalPlayer.Character["Left Leg"], Vector3.new(-0.5,-2,1))
+doo(game.Players.LocalPlayer.Character["Right Leg"], Vector3.new(0.5,-2,1))
+end
+end)
+
+drophats.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(key)
+if (key=="=") then
+for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if (v:IsA("Accessory")) then
+v.Parent = workspace
+end
+end
+end
+end)
+end)
+
+drophats1.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(key)
+if (key=="=") then
+for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if (v:IsA("Accessory")) then
+v.Parent = workspace
+end
+end
+end
+end)
+end)
+
+invisble.MouseButton1Click:connect(function()
+	if (game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15) then
+if (game.Players.LocalPlayer.Character:FindFirstChild("LowerTorso")) then
+if (game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("Root")) then
+game.Players.LocalPlayer.Character.LowerTorso.Root:remove()
+end
+end
+else
+print('Not R15!')
+end
+end)
+
+removewaist.MouseButton1Click:connect(function()
+	if (game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15) then
+if (game.Players.LocalPlayer.Character:FindFirstChild("UpperTorso")) then
+if (game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild("Waist")) then
+game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+end
+end
+else
+print('Not R15!')
+end
+end)
+
+shattervest.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/CKbPg9NC", true))()
+end)
+
+shattervest1.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/CKbPg9NC", true))()
+end)
+
+gabx.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/EntUzD5J", true))();
+end)
+
+loadtools.MouseButton1Click:connect(function()
+	
+for _,v in pairs(game.Players.LocalPlayer:GetChildren()) do
+if (v:IsA("Tool")) then
+v.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+end)
+
+savetools.MouseButton1Click:connect(function()
+	for _,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if (v:IsA("Tool")) then
+v.Parent = game.Players.LocalPlayer
+end
+end
+end)
+
+
+
+print("load one working")
+
+
+r15gui.Active = true
+r6gui.Active = true
+toolsgui.Active = true
+othersgui.Active = true
+othersgui.Draggable = true
+r15gui.Draggable = true
+r6gui.Draggable = true
+toolsgui.Draggable = true
+
+makeinvisble.BackgroundTransparency = 1
+
+
+	        game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "Exploit GUI";
+            Text = "Press V To Open :))";
+        })
+
+function onKeyPress(inputObject, gameProcessedEvent)
+	if inputObject.KeyCode == Enum.KeyCode.V then
+		    if makeinvisble.Visible == false then
+        makeinvisble.Visible = true
+    else
+        makeinvisble.Visible = false
+    end
+	end
+end
+ 
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+
+
+function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+counter = 0
+
+while wait(0.1)do
+	rainbow1.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	rainbow2.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	rainbow3.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	rainbow4.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	rainbow5.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	rainbow6.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	rainbow7.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	rainbow8.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+	counter = counter + 0.01
+end
+
+print("load two working")
+end)
+
+wait(1)
+    warn("Enjoy")
+else
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Help";
+    Text = "This is Not The Right Game To Use in. Please Check Dev Console For More info!";
+    Icon = "rbxassetid://7066529054";
+    Duration = 10;
+    })
+wait()
+    game:GetService('TestService'):Message("Not The Right Game. The Right Game To Use In is == SCP: Roleplay , Game ID == 5041144419")
+    print("Not The Right Game. The Right Game To Use In is == SCP: Roleplay , Game ID == 5041144419")
+    warn("Not The Right Game. The Right Game To Use In is == SCP: Roleplay , Game ID == 5041144419")
+    error("Not The Right Game. The Right Game To Use In is == SCP: Roleplay , Game ID == 5041144419")
+end

@@ -1,0 +1,9 @@
+local function T64ST_fake_script()
+	local script = Instance.new('LocalScript', game:GetService("CoreGui"))
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()

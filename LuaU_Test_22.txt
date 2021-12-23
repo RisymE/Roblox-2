@@ -1,0 +1,109 @@
+-- Made by Rncrex Hack (RncHub)
+-- This is Test Gui (T64ST)
+-- Version: 2dc
+
+---#Help & Use
+-- Open the "DevConsole" (/console)
+--after opening Console "/console" use 𝙥𝙧𝙞𝙣𝙩() to start copying!
+--Script To Use
+--[[
+
+]]
+
+
+
+local HttpService = game:GetService("HttpService")
+local result = HttpService:GenerateGUID(false)
+
+
+-- Instances:
+
+local TGui = Instance.new("ScreenGui")
+local FrameQ = Instance.new("Frame")
+local LabelQ = Instance.new("TextLabel")
+local Exit = Instance.new("TextButton")
+local Copy = Instance.new("TextBox")
+
+--Properties:
+
+TGui.Name = result
+TGui.Parent = game.CoreGui
+
+FrameQ.Name = result
+FrameQ.Parent = TGui
+FrameQ.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FrameQ.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FrameQ.Position = UDim2.new(0, 0, 0, 0)
+FrameQ.Size = UDim2.new(0, 285, 0, 185)
+
+LabelQ.Name = result
+LabelQ.Parent = FrameQ
+LabelQ.BackgroundColor3 = Color3.fromRGB(32, 58, 86)
+LabelQ.Size = UDim2.new(0, 285, 0, 22)
+LabelQ.Font = Enum.Font.ArialBold
+LabelQ.Text = "T64ST"
+LabelQ.TextColor3 = Color3.fromRGB(242, 243, 243)
+LabelQ.TextSize = 14.000
+LabelQ.TextWrapped = true
+LabelQ.TextScaled = false
+
+Exit.Name = result
+Exit.Parent = LabelQ
+Exit.BackgroundColor3 = Color3.fromRGB(32, 58, 86)
+Exit.Position = UDim2.new(0.723404229, 45, 0.005555552, 0)
+Exit.Size = UDim2.new(0, 35, 0, 22)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = "x"
+Exit.TextColor3 = Color3.fromRGB(242, 243, 243)
+Exit.TextSize = 20.000
+Exit.TextWrapped = true
+Exit.TextScaled = true
+
+Copy.Name = result
+Copy.Parent = FrameQ
+Copy.BackgroundColor3 = Color3.fromRGB(242, 243, 243)
+Copy.BorderColor3 = Color3.fromRGB(242, 243, 243)
+Copy.Text = ""
+Copy.TextSize = 14.000
+Copy.Size = UDim2.new(0, 250, 0, 120)
+Copy.Position = UDim2.new(0, 15, 0, 50)
+Copy.ClearTextOnFocus = false
+Copy.TextEditable = true
+Copy.RichText = false
+Copy.TextScaled = true
+Copy.TextWrapped = true
+Copy.Selectable = true
+Copy.MultiLine = true
+Copy.Visible = true
+
+--Scripts
+
+local function T64ST_fake_script()
+	local script = Instance.new('LocalScript', FrameQ)
+
+	script.parent.Selectable = true
+	script.Parent.Active = true
+	script.parent.Draggable = true
+	
+end
+coroutine.wrap(T64ST_fake_script)()
+
+Exit.MouseButton1Click:connect(function()
+TGui:Destroy()
+end)
+
+local Q = game:GetService("CoreGui"):WaitForChild("DevConsoleMaster")
+while true do
+local Here = game:GetService("CoreGui").DevConsoleMaster.DevConsoleWindow.DevConsoleUI
+local O = Here:WaitForChild("MainView").ClientLog
+O.DescendantAdded:Connect(function(descendant)
+if (descendant:IsA("Frame")) then
+for i,q in pairs(descendant:GetChildren()) do
+if q.Name == "msg" then
+Copy.Text = q.Text
+end
+end
+end
+end)
+wait()
+end
